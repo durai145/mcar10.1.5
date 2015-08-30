@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>iControl</string>
+	<key>CFBundleGetInfoString</key>
+	<string>iControl 9.1.0 (198.63), Copyright (c) 2010 by Apple Inc.</string>
+	<key>CFBundleIconFile</key>
+	<string>MIDIDevicePlugIns.icns</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.apple.music.apps.midi.device.plugin.iControl</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>iControl</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>9.1.0</string>
+	<key>CFBundleSignature</key>
+	<string>EMAG</string>
+	<key>CFBundleVersion</key>
+	<string>198.63</string>
+</dict>
+</plist>

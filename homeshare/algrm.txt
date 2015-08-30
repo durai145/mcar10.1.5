@@ -1,0 +1,32 @@
+1. check_bkt 
+1.1. sysdate = 15-jan-2013
+2. eod_start_date  = null
+3. eod_end_date    = nll 
+
+4.1  generate new txn_bkt_id 
+
+transaction                                     |      usr_id    = 1
+	usr_id =1				|      grp_id    = 2
+	grp_id= 2   				|      cr_amt    = 0
+	cr_amt =10				|      dr_amt    = 10
+	dr_amt = 0				|      bill_Date = 15-jan-2013    
+	bill_dt = 15-jan-2013			| 
+        
+	
+2099
+
+
+bucket
+
+	usr_id       = 1   			|
+	grp_id       = 2			|
+	bkt_txn_id   = 2001			|
+	dr_amt       = 10			|
+	cr_amt       = 0			|
+	dt_created   = 15-jan-2013		|
+	usr_created  = 1			|
+	dt_modified  = 15-jan-2013		|
+	usr_modified = 1			|
+	eod_st_date  = 15-jan-2013 		|
+	eod_ed_date  = 31-dec-2099 		|
+

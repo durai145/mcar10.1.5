@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Classes</key>
+	<dict>
+		<key>DfApplication</key>
+		<dict>
+			<key>Description</key>
+			<string>The top level scripting object.</string>
+			<key>Name</key>
+			<string>application</string>
+			<key>PluralName</key>
+			<string>applications</string>
+		</dict>
+		<key>DfDocument</key>
+		<dict>
+			<key>Attributes</key>
+			<dict>
+				<key>CPULoad</key>
+				<dict>
+					<key>Description</key>
+					<string>Current CPU load</string>
+					<key>Name</key>
+					<string>CPU load</string>
+				</dict>
+				<key>cycleMode</key>
+				<dict>
+					<key>Description</key>
+					<string>Cycle mode of the song</string>
+					<key>Name</key>
+					<string>cycle mode</string>
+				</dict>
+				<key>masterVolume</key>
+				<dict>
+					<key>Description</key>
+					<string>Master volume of the song</string>
+					<key>Name</key>
+					<string>master volume</string>
+				</dict>
+				<key>tempo</key>
+				<dict>
+					<key>Description</key>
+					<string>Tempo of the song</string>
+					<key>Name</key>
+					<string>tempo</string>
+				</dict>
+			</dict>
+			<key>Description</key>
+			<string>A GarageBand song</string>
+			<key>Name</key>
+			<string>song</string>
+			<key>PluralName</key>
+			<string>songs</string>
+		</dict>
+		<key>DfTrack</key>
+		<dict>
+			<key>Attributes</key>
+			<dict>
+				<key>locked</key>
+				<dict>
+					<key>Description</key>
+					<string>Is the track locked?</string>
+					<key>Name</key>
+					<string>locked</string>
+				</dict>
+				<key>muted</key>
+				<dict>
+					<key>Description</key>
+					<string>Is the track muted?</string>
+					<key>Name</key>
+					<string>muted</string>
+				</dict>
+				<key>name</key>
+				<dict>
+					<key>Description</key>
+					<string>Instrument name of a track</string>
+					<key>Name</key>
+					<string>instrument name</string>
+				</dict>
+				<key>pan</key>
+				<dict>
+					<key>Description</key>
+					<string>Panning of the track</string>
+					<key>Name</key>
+					<string>pan</string>
+				</dict>
+				<key>realInstrument</key>
+				<dict>
+					<key>Description</key>
+					<string>Is the track a real instrument track?</string>
+					<key>Name</key>
+					<string>real instrument</string>
+				</dict>
+				<key>recordEnabled</key>
+				<dict>
+					<key>Description</key>
+					<string>Is record enabled on this track?</string>
+					<key>Name</key>
+					<string>record enabled</string>
+				</dict>
+				<key>selected</key>
+				<dict>
+					<key>Description</key>
+					<string>Is the track selected?</string>
+					<key>Name</key>
+					<string>selected</string>
+				</dict>
+				<key>softwareInstrument</key>
+				<dict>
+					<key>Description</key>
+					<string>Is the track a software instrument?</string>
+					<key>Name</key>
+					<string>software instrument</string>
+				</dict>
+				<key>soloed</key>
+				<dict>
+					<key>Description</key>
+					<string>Is the track soloed?</string>
+					<key>Name</key>
+					<string>soloed</string>
+				</dict>
+				<key>stereo</key>
+				<dict>
+					<key>Description</key>
+					<string>Is this a stereo track?</string>
+					<key>Name</key>
+					<string>stereo</string>
+				</dict>
+				<key>trackVolume</key>
+				<dict>
+					<key>Description</key>
+					<string>Volume of the track</string>
+					<key>Name</key>
+					<string>track volume</string>
+				</dict>
+			</dict>
+			<key>Description</key>
+			<string>Tracks in a song</string>
+			<key>Name</key>
+			<string>track</string>
+			<key>PluralName</key>
+			<string>tracks</string>
+		</dict>
+	</dict>
+	<key>Commands</key>
+	<dict>
+		<key>Addmovie</key>
+		<dict>
+			<key>Description</key>
+			<string>Create a new song with a movie track</string>
+			<key>Name</key>
+			<string>addmovie</string>
+			<key>UnnamedArgument</key>
+			<dict>
+				<key>Description</key>
+				<string>Reference to the movie file</string>
+			</dict>
+		</dict>
+		<key>Forward</key>
+		<dict>
+			<key>Description</key>
+			<string>Jump forward in the song.</string>
+			<key>Name</key>
+			<string>forward</string>
+		</dict>
+		<key>Play</key>
+		<dict>
+			<key>Description</key>
+			<string>Start playing the song.</string>
+			<key>Name</key>
+			<string>play</string>
+		</dict>
+		<key>RenderPreview</key>
+		<dict>
+			<key>Description</key>
+			<string>Render an iLife Preview for a GarageBand song</string>
+			<key>Name</key>
+			<string>renderPreview</string>
+			<key>UnnamedArgument</key>
+			<dict>
+				<key>Description</key>
+				<string>Reference to the GarageBand song</string>
+			</dict>
+		</dict>
+		<key>ResetPeakLEDs</key>
+		<dict>
+			<key>Description</key>
+			<string>Reset the peak LEDs</string>
+			<key>Name</key>
+			<string>reset peak LEDs</string>
+		</dict>
+		<key>Rewind</key>
+		<dict>
+			<key>Description</key>
+			<string>Jump backward the song.</string>
+			<key>Name</key>
+			<string>rewind</string>
+		</dict>
+		<key>Start</key>
+		<dict>
+			<key>Description</key>
+			<string>Jump to the beginning of the song.</string>
+			<key>Name</key>
+			<string>start</string>
+		</dict>
+		<key>Stop</key>
+		<dict>
+			<key>Description</key>
+			<string>Stop playing the song.</string>
+			<key>Name</key>
+			<string>stop</string>
+		</dict>
+	</dict>
+	<key>Description</key>
+	<string>This is the suite for several GarageBand commands</string>
+	<key>Name</key>
+	<string>GarageBand Suite</string>
+</dict>
+</plist>

@@ -1,0 +1,56 @@
+.h {
+	COLOR: #3311ff
+}
+.ha {
+	COLOR: #009900
+}
+.c {
+	COLOR: #006633
+}
+#i {
+	COLOR: #006633
+}
+
+.mandatory {
+	COLOR: #00FFFF
+}
+
+.wtable {
+	MARGIN: 2px; WIDTH: 99.5%; BACKGROUND-COLOR:#FFFFFF
+}
+
+
+.visibleDiv, #topLeft, #topRight, #bottomLeft, #bottomRight
+{
+    position: fixed;
+    border: solid 1px #e1e1e1;
+    vertical-align: middle;
+    background: green;
+    text-align: center;
+}
+
+#topLeft
+{
+    top: 320px;
+    left: 480px;
+}
+
+#topRight
+{
+    top: 10px;
+    right: 10px;
+}
+
+#bottomLeft
+{
+    bottom: 10px;
+    left: 10px;
+}
+
+#bottomRight
+{
+    bottom: 10px;
+    right: 10px;
+}
+
+

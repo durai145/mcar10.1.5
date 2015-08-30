@@ -1,0 +1,1 @@
+							sendMail('00000145',fname.val(),lname.val(),email.val(),'india');

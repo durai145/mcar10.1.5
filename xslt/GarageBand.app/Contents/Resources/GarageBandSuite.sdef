@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dictionary SYSTEM "file://localhost/System/Library/DTDs/sdef.dtd">
+<dictionary title="Dictionary">
+	<suite name="GarageBand Suite" code="band" description="This is the suite for several GarageBand commands">
+		<cocoa name="GarageBandSuite"/>
+		<class name="application" code="capp" description="The top level scripting object." plural="applications" inherits="NSCoreSuite.NSApplication">
+			<cocoa class="DfApplication"/>
+			<responds-to name="addmovie">
+				<cocoa method="handleAddMovie:"/>
+			</responds-to>
+			<responds-to name="renderPreview">
+				<cocoa method="handleRenderPreview:"/>
+			</responds-to>
+		</class>
+		<class name="song" code="docu" description="A GarageBand song" plural="songs" inherits="NSCoreSuite.NSDocument">
+			<cocoa class="DfDocument"/>
+			<element description="Tracks in a song" type="track">
+				<cocoa key="tracks"/>
+			</element>
+			<property name="CPU load" code="DfCP" description="Current CPU load" type="integer" access="r"/>
+			<property name="cycle mode" code="DfCy" description="Cycle mode of the song" type="boolean"/>
+			<property name="tempo" code="DfTm" description="Tempo of the song" type="integer"/>
+			<property name="master volume" code="DfmV" description="Master volume of the song" type="real"/>
+			<responds-to name="play">
+				<cocoa method="handlePlay:"/>
+			</responds-to>
+			<responds-to name="stop">
+				<cocoa method="handleStop:"/>
+			</responds-to>
+			<responds-to name="forward">
+				<cocoa method="handleForward:"/>
+			</responds-to>
+			<responds-to name="rewind">
+				<cocoa method="handleRewind:"/>
+			</responds-to>
+			<responds-to name="start">
+				<cocoa method="handleBeginning:"/>
+			</responds-to>
+			<responds-to name="reset peak LEDs">
+				<cocoa method="resetPeakLEDs:"/>
+			</responds-to>
+		</class>
+		<class name="track" code="TrKs" description="Tracks in a song" plural="tracks" inherits="NSCoreSuite.AbstractObject">
+			<cocoa class="DfTrack"/>
+			<property name="instrument name" code="INam" description="Instrument name of a track" type="text" access="r">
+				<cocoa key="name"/>
+			</property>
+			<property name="selected" code="TEna" description="Is the track selected?" type="boolean" access="r"/>
+			<property name="record enabled" code="TRen" description="Is record enabled on this track?" type="boolean" access="r"/>
+			<property name="muted" code="TMut" description="Is the track muted?" type="boolean" access="r"/>
+			<property name="soloed" code="Tsol" description="Is the track soloed?" type="boolean" access="r"/>
+			<property name="locked" code="Tfrz" description="Is the track locked?" type="integer" access="r"/>
+			<property name="stereo" code="Tste" description="Is this a stereo track?" type="boolean" access="r"/>
+			<property name="real instrument" code="Taud" description="Is the track a real instrument track?" type="boolean" access="r"/>
+			<property name="software instrument" code="Tmid" description="Is the track a software instrument?" type="boolean" access="r"/>
+			<property name="track volume" code="Tvol" description="Volume of the track" type="real" access="r"/>
+			<property name="pan" code="Tpan" description="Panning of the track" type="integer" access="r"/>
+		</class>
+		<command name="play" code="bandplay" description="Start playing the song."/>
+		<command name="stop" code="bandpaus" description="Stop playing the song."/>
+		<command name="forward" code="bandforw" description="Jump forward in the song."/>
+		<command name="rewind" code="bandrewi" description="Jump backward the song."/>
+		<command name="start" code="bandstar" description="Jump to the beginning of the song."/>
+		<command name="reset peak LEDs" code="bandLEDs" description="Reset the peak LEDs"/>
+		<command name="addmovie" code="bandmovi" description="Create a new song with a movie track">
+			<direct-parameter description="Reference to the movie file" type="file" optional="yes"/>
+		</command>
+		<command name="renderPreview" code="bandprev" description="Render an iLife Preview for a GarageBand song">
+			<direct-parameter description="Reference to the GarageBand song" type="file" optional="yes"/>
+		</command>		
+	</suite>
+</dictionary>

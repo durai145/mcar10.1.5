@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>layers</key>
+	<array>
+		<dict>
+			<key>file</key>
+			<string>30G.tiff</string>
+			<key>offsetX</key>
+			<real>2</real>
+			<key>offsetY</key>
+			<real>-2</real>
+			<key>type</key>
+			<string>image</string>
+		</dict>
+		<dict>
+			<key>classname</key>
+			<string>CIColorMatrix</string>
+			<key>type</key>
+			<string>filter</string>
+			<key>values</key>
+			<dict>
+				<key>inputAVector_CIVectorValue</key>
+				<string>[0 0 0 0.69]</string>
+				<key>inputBVector_CIVectorValue</key>
+				<string>[0 0 0 1]</string>
+				<key>inputBiasVector_CIVectorValue</key>
+				<string>[0 0 0 -0.2]</string>
+				<key>inputGVector_CIVectorValue</key>
+				<string>[0 0 0 1]</string>
+				<key>inputRVector_CIVectorValue</key>
+				<string>[0 0 0 1]</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>classname</key>
+			<string>CIColorInvert</string>
+			<key>type</key>
+			<string>filter</string>
+			<key>values</key>
+			<dict/>
+		</dict>
+		<dict>
+			<key>classname</key>
+			<string>CIColorControls</string>
+			<key>type</key>
+			<string>filter</string>
+			<key>values</key>
+			<dict>
+				<key>inputBrightness</key>
+				<real>-0.5</real>
+				<key>inputContrast</key>
+				<real>1</real>
+				<key>inputSaturation</key>
+				<real>1</real>
+			</dict>
+		</dict>
+		<dict>
+			<key>classname</key>
+			<string>CICrop</string>
+			<key>type</key>
+			<string>filter</string>
+			<key>values</key>
+			<dict>
+				<key>inputRectangle_CIVectorValue</key>
+				<string>[0 0 49 40]</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>file</key>
+			<string>30G.tiff</string>
+			<key>offsetX</key>
+			<real>0.0</real>
+			<key>offsetY</key>
+			<real>0.0</real>
+			<key>type</key>
+			<string>image</string>
+		</dict>
+	</array>
+	<key>windowHeight</key>
+	<real>386</real>
+	<key>windowWidth</key>
+	<real>391</real>
+</dict>
+</plist>

@@ -1,0 +1,62 @@
+select  sum( (  case DR_CR_FLG  When  'C' then   tran_amt  else   tran_amt* -1 end  ) ) eff_amt ,  g.f_name 
+ from TRN003MB  t, gid001tb g 
+where t.usr_id= g.usr_id  
+group by g.f_name 
+
+--and  g.f_name ='Gomateswaran';
+
+delete from     where TBKT_TXN_ID = 135 ;
+delete from GTRN002MB  where GTXN_TXN_ID = 135;
+
+
+
+
+	
+
+select from TRN003MB  where TBKT_TXN_ID = 619 ;
+
+select * from GTRN002MB  where GTXN_TXN_ID = 77;
+
+select * from gtrn002mb  where GTXN_TXN_ID =619;
+
+
+
+
+  'patel brothers','pettels','petels'
+
+900 301 4232
+
+select t.TBKT_TXN_ID,    g.f_name,      CARD_NUM,  gt.BILL_REF , gt.bill_dt ,  (  case DR_CR_FLG  When  'C' then   tran_amt  else   '' end  )  credit  , (  case DR_CR_FLG  When  'C' then   '' else   tran_amt* -1 end  ) debit  ,     (  case DR_CR_FLG  When  'C' then   tran_amt  else   tran_amt* -1 end  ) tran_amt, descr
+from TRN003MB  t, gid001tb g , gtrn002mb  gt
+where t.usr_id= g.usr_id  
+and gt.GTXN_TXN_ID = t.TBKT_TXN_ID
+and  g.f_name ='Anand';
+
+
+
+select t.TBKT_TXN_ID, gt.BILL_REF , (  case DR_CR_FLG  When  'C' then   tran_amt  else   tran_amt* -1 end  ) tran_amt
+from TRN003MB  t, gid001tb g , gtrn002mb  gt
+where t.usr_id= g.usr_id  
+and gt.GTXN_TXN_ID = t.TBKT_TXN_ID
+and  g.f_name ='Gomateswaran';
+
+select t.TBKT_TXN_ID, gt.BILL_REF , (  case DR_CR_FLG  When  'C' then   tran_amt  else   tran_amt* -1 end  ) tran_amt
+from TRN003MB  t, gid001tb g , gtrn002mb  gt
+where t.usr_id= g.usr_id  
+and gt.GTXN_TXN_ID = t.TBKT_TXN_ID
+and  g.f_name ='Anand';
+
+
+select t.TBKT_TXN_ID, gt.BILL_REF , (  case DR_CR_FLG  When  'C' then   tran_amt  else   tran_amt* -1 end  ) tran_amt
+from TRN003MB  t, gid001tb g , gtrn002mb  gt
+where t.usr_id= g.usr_id  
+t.DR_CR_FLG = 'C'
+and gt.GTXN_TXN_ID = t.TBKT_TXN_ID
+and  g.f_name ='Gomateswaran';
+
+select t.TBKT_TXN_ID, gt.BILL_REF , (  case DR_CR_FLG  When  'C' then   tran_amt  else   tran_amt* -1 end  ) tran_amt
+from TRN003MB  t, gid001tb g , gtrn002mb  gt
+where t.usr_id= g.usr_id  
+t.DR_CR_FLG = 'C'
+and gt.GTXN_TXN_ID = t.TBKT_TXN_ID
+and  g.f_name ='Gomateswaran';

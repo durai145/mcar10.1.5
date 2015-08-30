@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Descriptors</key>
+	<array>
+		<string>Cheerful/Dark</string>
+		<string>Melodic/Dissonant</string>
+		<string>Relaxed/Intense</string>
+		<string>Grooving/Arrhythmic</string>
+		<string>Distorted/Clean</string>
+		<string>Acoustic/Electric</string>
+		<string>Processed/Dry</string>
+		<string>Single/Ensemble</string>
+		<string>Part/Fill</string>
+	</array>
+	<key>Genres</key>
+	<array>
+		<string>Rock/Blues</string>
+		<string>Electronic/Dance</string>
+		<string>Jazz</string>
+		<string>Urban</string>
+		<string>World/Ethnic</string>
+		<string>Cinematic/New Age</string>
+		<string>Orchestral</string>
+		<string>Country/Folk</string>
+		<string>Experimental</string>
+		<string>Other Genre</string>
+	</array>
+	<key>Instrument Types</key>
+	<dict>
+		<key>Bass</key>
+		<array>
+			<string>Electric Bass</string>
+			<string>Acoustic Bass</string>
+			<string>Synthetic Bass</string>
+		</array>
+		<key>Drums</key>
+		<array>
+			<string>Drum Kit</string>
+			<string>Electronic Beats</string>
+			<string>Kick</string>
+			<string>Tom</string>
+			<string>Snare</string>
+			<string>Cymbal</string>
+			<string>Hi-hat</string>
+		</array>
+		<key>Guitars</key>
+		<array>
+			<string>Electric Guitar</string>
+			<string>Acoustic Guitar</string>
+			<string>Banjo</string>
+			<string>Mandolin</string>
+			<string>Slide Guitar</string>
+			<string>Pedal Steel Guitar</string>
+		</array>
+		<key>Horn/Wind</key>
+		<array>
+			<string>Saxophone</string>
+			<string>Trumpet</string>
+			<string>Flute</string>
+			<string>Trombone</string>
+			<string>Clarinet</string>
+			<string>French Horn</string>
+			<string>Tuba</string>
+			<string>Oboe</string>
+			<string>Harmonica</string>
+			<string>Recorder</string>
+			<string>Pan Flute</string>
+			<string>Bagpipe</string>
+			<string>Bassoon</string>
+			<string>Piccolo</string>
+			<string>English Horn</string>
+		</array>
+		<key>Keyboards</key>
+		<array>
+			<string>Piano</string>
+			<string>Electric Piano</string>
+			<string>Organ</string>
+			<string>Clavinet</string>
+			<string>Accordion</string>
+			<string>Synthesizer</string>
+			<string>Celesta</string>
+			<string>Harpsichord</string>
+		</array>
+		<key>Mallets</key>
+		<array>
+			<string>Steel Drum</string>
+			<string>Vibraphone</string>
+			<string>Marimba</string>
+			<string>Xylophone</string>
+			<string>Kalimba</string>
+			<string>Bell</string>
+			<string>Timpani</string>
+		</array>
+		<key>Mixed</key>
+		<string>Mixed</string>
+		<key>Other Instrument</key>
+		<string>Other Instrument</string>
+		<key>Percussion</key>
+		<array>
+			<string>Gong</string>
+			<string>Shaker</string>
+			<string>Tambourine</string>
+			<string>Conga</string>
+			<string>Bongo</string>
+			<string>Cowbell</string>
+			<string>Clave</string>
+			<string>Vinyl/Scratch</string>
+			<string>Chime</string>
+			<string>Rattler</string>
+		</array>
+		<key>Sound Effect</key>
+		<array>
+			<string>Ambience</string>
+			<string>People</string>
+			<string>Transportation</string>
+			<string>Weapons</string>
+			<string>Explosions</string>
+			<string>Impacts &amp; Crashes</string>
+			<string>Animals</string>
+			<string>Sports &amp; Leisure</string>
+			<string>Mech/Tech</string>
+			<string>Work/Home</string>
+			<string>Misc.</string>
+			<string>Foley</string>
+			<string>Motions &amp; Transitions</string>
+			<string>Sci-Fi</string>
+		</array>
+		<key>Strings</key>
+		<array>
+			<string>Violin</string>
+			<string>Viola</string>
+			<string>Cello</string>
+			<string>Harp</string>
+			<string>Koto</string>
+			<string>Sitar</string>
+			<string>Double Bass</string>
+		</array>
+		<key>Texture/Atmosphere</key>
+		<string>Texture/Atmosphere</string>
+		<key>Vocals</key>
+		<array>
+			<string>Male</string>
+			<string>Female</string>
+			<string>Choir</string>
+		</array>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,1 @@
+(function apd_language_redirect(){var c=location.pathname.replace(/^.*\/([^\/]+.lproj)\/.*$/,"$1"),b="../index.html?localePath="+c,a;if(location.search.match(/topic=[^&]+/)){a=location.search.replace(/^.*topic=([^&]+).*$/,"$1")}b+=a?"#"+a:location.hash;location.replace(b)}());

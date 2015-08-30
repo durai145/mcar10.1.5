@@ -1,0 +1,167 @@
+
+c:A.001:pgmTyp =<C>
+c:A.002: opening config file 
+c:A.003:  try to open cfgFileName:cfgFileName =<.c.cfg>
+c:3.2.2:  prompt the user for 'Do you want add the dependent Prpgram' 
+c:3.2.2.1  if user entered as 'Y' 
+c:3.2.2.1.2  add the compiler version and os details 
+c:3.2.2.1.2.1i while program name as entered exit get the file name 
+c:3.2.2.1.2.1 get program name
+c:3.2.2.1.2.1i    while program name as entered exit get the file name
+c:3.2.2.1.2.1     get program name : inpFile <exit>
+c:A.004.01: strat read the config file 
+c:A.004: Read  line from  config file  
+c:A.005:Frame the version string  
+c:A.005.01:After Frame the version string:givnTmpVer <C 1.0.0 Mac>  
+c:A.005.02:before compare :cfgFileNameBuff <C 1.0.0 Mac>  
+c:A.007:final link string : userLink  <>  
+ gcc -m64  c.c  -I/u01/oracle/product/10.2.0/db_1/precomp/public -I/Users/oracle/include     -dynamic /usr/local/lib/libclntsh.dylib    -o ~/bin/c 1>c.log 2>c.err 
+s:A.001:pgmTyp =<C>
+s:A.002: opening config file 
+s:A.003:  try to open cfgFileName:cfgFileName =<.s.cfg>
+s:3.2.2:  prompt the user for 'Do you want add the dependent Prpgram' 
+s:3.2.2.1  if user entered as 'Y' 
+s:3.2.2.1.2  add the compiler version and os details 
+s:3.2.2.1.2.1i while program name as entered exit get the file name 
+s:3.2.2.1.2.1 get program name
+s:3.2.2.1.2.1i    while program name as entered exit get the file name
+s:3.2.2.1.2.1     get program name : inpFile <exit>
+s:A.004.01: strat read the config file 
+s:A.004: Read  line from  config file  
+s:A.005:Frame the version string  
+s:A.005.01:After Frame the version string:givnTmpVer <C 1.0.0 Mac>  
+s:A.005.02:before compare :cfgFileNameBuff <C 1.0.0 Mac>  
+s:A.007:final link string : userLink  <>  
+ gcc -m64  s.c  -I/u01/oracle/product/10.2.0/db_1/precomp/public -I/Users/oracle/include     -dynamic /usr/local/lib/libclntsh.dylib    -o ~/bin/s 1>s.log 2>s.err 
+s:A.001:pgmTyp =<C>
+s:A.002: opening config file 
+s:A.003:  try to open cfgFileName:cfgFileName =<.s.cfg>
+s:A.004: file pointer is not null 
+s:A.004.01: strat read the config file 
+s:A.004: Read  line from  config file  
+s:A.005:Frame the version string  
+s:A.005.01:After Frame the version string:givnTmpVer <C 1.0.0 Mac>  
+s:A.005.02:before compare :cfgFileNameBuff <C 1.0.0 Mac>  
+s:A.007:final link string : userLink  <>  
+ gcc -m64  s.c  -I/u01/oracle/product/10.2.0/db_1/precomp/public -I/Users/oracle/include     -dynamic /usr/local/lib/libclntsh.dylib    -o ~/bin/s 1>s.log 2>s.err 
+c:A.001:pgmTyp =<C>
+c:A.002: opening config file 
+c:A.003:  try to open cfgFileName:cfgFileName =<.c.cfg>
+c:A.004: file pointer is not null 
+c:A.004.01: strat read the config file 
+c:A.004: Read  line from  config file  
+c:A.005:Frame the version string  
+c:A.005.01:After Frame the version string:givnTmpVer <C 1.0.0 Mac>  
+c:A.005.02:before compare :cfgFileNameBuff <C 1.0.0 Mac>  
+c:A.007:final link string : userLink  <>  
+ gcc -m64  c.c  -I/u01/oracle/product/10.2.0/db_1/precomp/public -I/Users/oracle/include     -dynamic /usr/local/lib/libclntsh.dylib    -o ~/bin/c 1>c.log 2>c.err 
+s:A.001:pgmTyp =<C>
+s:A.002: opening config file 
+s:A.003:  try to open cfgFileName:cfgFileName =<.s.cfg>
+s:A.004: file pointer is not null 
+s:A.004.01: strat read the config file 
+s:A.004: Read  line from  config file  
+s:A.005:Frame the version string  
+s:A.005.01:After Frame the version string:givnTmpVer <C 1.0.0 Mac>  
+s:A.005.02:before compare :cfgFileNameBuff <C 1.0.0 Mac>  
+s:A.007:final link string : userLink  <>  
+ gcc -m64  s.c  -I/u01/oracle/product/10.2.0/db_1/precomp/public -I/Users/oracle/include     -dynamic /usr/local/lib/libclntsh.dylib    -o ~/bin/s 1>s.log 2>s.err 
+s:A.001:pgmTyp =<C>
+s:A.002: opening config file 
+s:A.003:  try to open cfgFileName:cfgFileName =<.s.cfg>
+s:A.004: file pointer is not null 
+s:A.004.01: strat read the config file 
+s:A.004: Read  line from  config file  
+s:A.005:Frame the version string  
+s:A.005.01:After Frame the version string:givnTmpVer <C 1.0.0 Mac>  
+s:A.005.02:before compare :cfgFileNameBuff <C 1.0.0 Mac>  
+s:A.007:final link string : userLink  <>  
+ gcc -m64  s.c  -I/u01/oracle/product/10.2.0/db_1/precomp/public -I/Users/oracle/include     -dynamic /usr/local/lib/libclntsh.dylib    -o ~/bin/s 1>s.log 2>s.err 
+s:A.001:pgmTyp =<C>
+s:A.002: opening config file 
+s:A.003:  try to open cfgFileName:cfgFileName =<.s.cfg>
+s:A.004: file pointer is not null 
+s:A.004.01: strat read the config file 
+s:A.004: Read  line from  config file  
+s:A.005:Frame the version string  
+s:A.005.01:After Frame the version string:givnTmpVer <C 1.0.0 Mac>  
+s:A.005.02:before compare :cfgFileNameBuff <C 1.0.0 Mac>  
+s:A.007:final link string : userLink  <>  
+ gcc -m64  s.c  -I/u01/oracle/product/10.2.0/db_1/precomp/public -I/Users/oracle/include     -dynamic /usr/local/lib/libclntsh.dylib    -o ~/bin/s 1>s.log 2>s.err 
+s:A.001:pgmTyp =<C>
+s:A.002: opening config file 
+s:A.003:  try to open cfgFileName:cfgFileName =<.s.cfg>
+s:A.004: file pointer is not null 
+s:A.004.01: strat read the config file 
+s:A.004: Read  line from  config file  
+s:A.005:Frame the version string  
+s:A.005.01:After Frame the version string:givnTmpVer <C 1.0.0 Mac>  
+s:A.005.02:before compare :cfgFileNameBuff <C 1.0.0 Mac>  
+s:A.007:final link string : userLink  <>  
+ gcc -m64  s.c  -I/u01/oracle/product/10.2.0/db_1/precomp/public -I/Users/oracle/include     -dynamic /usr/local/lib/libclntsh.dylib    -o ~/bin/s 1>s.log 2>s.err 
+s:A.001:pgmTyp =<C>
+s:A.002: opening config file 
+s:A.003:  try to open cfgFileName:cfgFileName =<.s.cfg>
+s:A.004: file pointer is not null 
+s:A.004.01: strat read the config file 
+s:A.004: Read  line from  config file  
+s:A.005:Frame the version string  
+s:A.005.01:After Frame the version string:givnTmpVer <C 1.0.0 Mac>  
+s:A.005.02:before compare :cfgFileNameBuff <C 1.0.0 Mac>  
+s:A.007:final link string : userLink  <>  
+ gcc -m64  s.c  -I/u01/oracle/product/10.2.0/db_1/precomp/public -I/Users/oracle/include     -dynamic /usr/local/lib/libclntsh.dylib    -o ~/bin/s 1>s.log 2>s.err 
+s:A.001:pgmTyp =<C>
+s:A.002: opening config file 
+s:A.003:  try to open cfgFileName:cfgFileName =<.s.cfg>
+s:A.004: file pointer is not null 
+s:A.004.01: strat read the config file 
+s:A.004: Read  line from  config file  
+s:A.005:Frame the version string  
+s:A.005.01:After Frame the version string:givnTmpVer <C 1.0.0 Mac>  
+s:A.005.02:before compare :cfgFileNameBuff <C 1.0.0 Mac>  
+s:A.007:final link string : userLink  <>  
+ gcc -m64  s.c  -I/u01/oracle/product/10.2.0/db_1/precomp/public -I/Users/oracle/include     -dynamic /usr/local/lib/libclntsh.dylib    -o ~/bin/s 1>s.log 2>s.err 
+s:A.001:pgmTyp =<C>
+s:A.002: opening config file 
+s:A.003:  try to open cfgFileName:cfgFileName =<.s.cfg>
+s:A.004: file pointer is not null 
+s:A.004.01: strat read the config file 
+s:A.004: Read  line from  config file  
+s:A.005:Frame the version string  
+s:A.005.01:After Frame the version string:givnTmpVer <C 1.0.0 Mac>  
+s:A.005.02:before compare :cfgFileNameBuff <C 1.0.0 Mac>  
+s:A.007:final link string : userLink  <>  
+ gcc -m64  s.c  -I/u01/oracle/product/10.2.0/db_1/precomp/public -I/Users/oracle/include     -dynamic /usr/local/lib/libclntsh.dylib    -o ~/bin/s 1>s.log 2>s.err 
+s:A.001:pgmTyp =<C>
+s:A.002: opening config file 
+s:A.003:  try to open cfgFileName:cfgFileName =<.s.cfg>
+s:A.004: file pointer is not null 
+s:A.004.01: strat read the config file 
+s:A.004: Read  line from  config file  
+s:A.005:Frame the version string  
+s:A.005.01:After Frame the version string:givnTmpVer <C 1.0.0 Mac>  
+s:A.005.02:before compare :cfgFileNameBuff <C 1.0.0 Mac>  
+s:A.007:final link string : userLink  <>  
+ gcc -m64  s.c  -I/u01/oracle/product/10.2.0/db_1/precomp/public -I/Users/oracle/include     -dynamic /usr/local/lib/libclntsh.dylib    -o ~/bin/s 1>s.log 2>s.err 
+s:A.001:pgmTyp =<C>
+s:A.002: opening config file 
+s:A.003:  try to open cfgFileName:cfgFileName =<.s.cfg>
+s:A.004: file pointer is not null 
+s:A.004.01: strat read the config file 
+s:A.004: Read  line from  config file  
+s:A.005:Frame the version string  
+s:A.005.01:After Frame the version string:givnTmpVer <C 1.0.0 Mac>  
+s:A.005.02:before compare :cfgFileNameBuff <C 1.0.0 Mac>  
+s:A.007:final link string : userLink  <>  
+ gcc -m64  s.c  -I/u01/oracle/product/10.2.0/db_1/precomp/public -I/Users/oracle/include     -dynamic /usr/local/lib/libclntsh.dylib    -o ~/bin/s 1>s.log 2>s.err 
+s:A.001:pgmTyp =<C>
+s:A.002: opening config file 
+s:A.003:  try to open cfgFileName:cfgFileName =<.s.cfg>
+s:A.004: file pointer is not null 
+s:A.004.01: strat read the config file 
+s:A.004: Read  line from  config file  
+s:A.005:Frame the version string  
+s:A.005.01:After Frame the version string:givnTmpVer <C 1.0.0 Mac>  
+s:A.005.02:before compare :cfgFileNameBuff <C 1.0.0 Mac>  
+s:A.007:final link string : userLink  <>  
+ gcc -m64  s.c  -I/u01/oracle/product/10.2.0/db_1/precomp/public -I/Users/oracle/include     -dynamic /usr/local/lib/libclntsh.dylib    -o ~/bin/s 1>s.log 2>s.err 

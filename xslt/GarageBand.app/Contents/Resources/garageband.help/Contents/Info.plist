@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en_US</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.apple.garageband.help</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>GarageBand ’11 Help</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>115</string>
+	<key>CFBundleSignature</key>
+	<string>hbwr</string>
+	<key>CFBundleVersion</key>
+	<string>115</string>
+	<key>HPDBookAccessPath</key>
+	<string>redirect.html</string>
+	<key>HPDBookIconPath</key>
+	<string>Art/xicngbnd.png</string>
+	<key>HPDBookIndexPath</key>
+	<string>search.helpindex</string>
+	<key>HPDBookKBProduct</key>
+	<string>kband11</string>
+	<key>HPDBookKBURL</key>
+	<string>http://www.info.apple.com/searchredir.html?bucket=helpviewer&amp;amp;lang=en&amp;amp;as_oq='product'&amp;amp;val='query'</string>
+	<key>HPDBookRemoteURL</key>
+	<string>https://help.apple.com/garageband/mac/6.0.5/help/</string>
+	<key>HPDBookTitle</key>
+	<string>GarageBand ’11 Help</string>
+	<key>HPDBookType</key>
+	<string>3</string>
+</dict>
+</plist>

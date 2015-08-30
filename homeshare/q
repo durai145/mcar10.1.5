@@ -1,0 +1,49 @@
+$jsfunc = "function homepace_onCrbChange()\n";
+$jsfunc .= "{\n";
+$jsfunc .= "	if( document.getElementById('SpndAmt').value.length  ==  0)\n";
+$jsfunc .= "	{\n";
+$jsfunc .= "		alert('Please Enter' + document.getElementById('SpndAmt').getAttribute('label') );\n";
+$jsfunc .= "		document.getElementById('SpndAmt').focus();\n";
+$jsfunc .= "		return false;\n";
+$jsfunc .= "	}\n";
+$jsfunc .= "\n";
+$jsfunc .= "	if( document.getElementById('CrbPer1').value.length  ==  0)\n";
+$jsfunc .= "	document.getElementById('CrbPer1').value = 0;\n";
+$jsfunc .= "	if( document.getElementById('CrbPer2').value.length  ==  0)\n";
+$jsfunc .= "	document.getElementById('CrbPer2').value = 0;\n";
+$jsfunc .= "	if( document.getElementById('CrbPer3').value.length  ==  0)\n";
+$jsfunc .= "	document.getElementById('CrbPer3').value = 0;\n";
+$jsfunc .= "	if( document.getElementById('CrbPer4').value.length  ==  0)\n";
+$jsfunc .= "	document.getElementById('CrbPer4').value = 0;\n";
+$jsfunc .= "	if( document.getElementById('CrbPer5').value.length  ==  0)\n";
+$jsfunc .= "	document.getElementById('CrbPer5').value = 0;\n";
+$jsfunc .= "\n";
+$jsfunc .= "\n";
+$jsfunc .= "	 document.getElementById('ShrCnt').value =( (document.getElementById('CrbPer1Flg').value  == 'Y')?1 :0)  + ( (document.getElementById('CrbPer2Flg').value  == 'Y')?1 :0)  + ( (document.getElementById('CrbPer3Flg').value  == 'Y')?1 :0)  + ( (document.getElementById('CrbPer4Flg').value  == 'Y')?1 :0)  + ( (document.getElementById('CrbPer5Flg').value  == 'Y')?1 :0)  ;\n";
+$jsfunc .= "\n";
+
+$jsfunc .= "\n";
+$jsfunc .= "	if (document.getElementById('SpndAmt').value.length!=0)	\n";
+$jsfunc .= "	{\n";
+$jsfunc .= "		document.getElementById('ShrAmt').value= parseFloat( document.getElementById('SpndAmt').value)/parseFloat( document.getElementById('ShrCnt').value);\n";
+$jsfunc .= "	}\n";
+
+$jsfunc .= "	if( document.getElementById('CrbPer1Flg').value  == 'Y')\n";
+$jsfunc .= "	document.getElementById('BalPer1').value= parseFloat( document.getElementById('CrbPer1').value) -parseFloat( document.getElementById('ShrAmt').value);\n";
+$jsfunc .= "	if( document.getElementById('CrbPer2Flg').value  == 'Y')\n";
+$jsfunc .= "	document.getElementById('BalPer2').value= parseFloat( document.getElementById('CrbPer2').value) -parseFloat( document.getElementById('ShrAmt').value);\n";
+$jsfunc .= "	if( document.getElementById('CrbPer3Flg').value  == 'Y')\n";
+$jsfunc .= "	document.getElementById('BalPer3').value= parseFloat( document.getElementById('CrbPer3').value) -parseFloat( document.getElementById('ShrAmt').value);\n";
+$jsfunc .= "	if( document.getElementById('CrbPer4Flg').value  == 'Y')\n";
+$jsfunc .= "	document.getElementById('BalPer4').value= parseFloat( document.getElementById('CrbPer4').value) -parseFloat( document.getElementById('ShrAmt').value);\n";
+$jsfunc .= "	if( document.getElementById('CrbPer5Flg').value  == 'Y')\n";
+$jsfunc .= "	document.getElementById('BalPer5').value= parseFloat( document.getElementById('CrbPer5').value) -parseFloat( document.getElementById('ShrAmt').value);\n";
+$jsfunc .= "\n";
+
+$jsfunc .= "	document.getElementById('BalTtl').value= Math.round( ( parseFloat( document.getElementById('BalPer1').value) +parseFloat( document.getElementById('BalPer2').value) +parseFloat( document.getElementById('BalPer3').value) +parseFloat( document.getElementById('BalPer4').value) +parseFloat( document.getElementById('BalPer5').value) ) *100)/100;\n";
+
+$jsfunc .= "	document.getElementById('CrbTtl').value= parseFloat( document.getElementById('CrbPer1').value) +parseFloat( document.getElementById('CrbPer2').value) +parseFloat( document.getElementById('CrbPer3').value) +parseFloat( document.getElementById('CrbPer4').value) +parseFloat( document.getElementById('CrbPer5').value);\n";
+$jsfunc .= "	document.getElementById('BalDiff').value= parseFloat( document.getElementById('CrbTtl').value) - parseFloat( document.getElementById('SpndAmt').value);\n";
+
+$jsfunc .= "\n";
+$jsfunc .= "}\n";

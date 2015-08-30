@@ -1,0 +1,46 @@
+ .ToyMenu
+{
+position:absolute;
+left:0;
+top:50px;
+width:150px;
+height:22px;
+background:yellow;
+}
+ .FlowerMenu
+{
+position:absolute;
+left:100;
+top:50px;
+width:150px;
+height:22px;
+background:yellow;
+}
+ .moreMenu
+{
+position:absolute;
+left:100;
+top:50px;
+width:150px;
+height:22px;
+visibility:hidden;
+background:yellow;
+}
+
+ .plusClass
+{
+	COLOR:Red;
+}
+ .minusClass
+{
+	COLOR:black;
+}
+ .small
+{
+	font-size:20;
+}
+ .large
+{
+	font-size:22;
+}
+

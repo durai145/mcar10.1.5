@@ -1,0 +1,1130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Flutes</key>
+	<string>Flute</string>
+	<key>Guitar</key>
+	<string>Guitars</string>
+	<key>Turntables</key>
+	<string>Vinyl/Scratch</string>
+	<key>Vocal</key>
+	<string>Vocals</string>
+	<key>Keyboard</key>
+	<string>Keyboards</string>
+	<key>Voice</key>
+	<string>Vocals</string>
+	<key>Hip Hop</key>
+	<string>Urban</string>
+	<key>Chorused</key>
+	<string>Ensemble</string>
+	<key>Happiness</key>
+	<string>Cheerful</string>
+	<key>Happy</key>
+	<string>Cheerful</string>
+	<key>Rhythms</key>
+	<string>Grooving</string>
+	<key>Rhythm</key>
+	<string>Grooving</string>
+	<key>Synth</key>
+	<string>Synthesizer</string>
+	
+	<key>Acoustics</key>
+	<string>Acoustic</string>
+	<key>Electrics</key>
+	<string>Electric</string>
+	<key>Ensembles</key>
+	<string>Ensemble</string>
+
+	<key>Drum Kits</key>
+	<string>Drum Kit</string>
+	<key>Drum Machine</key>
+	<string>Electronic Beats</string>
+	<key>Drum Machines</key>
+	<string>Electronic Beats</string>
+	<key>Kicks</key>
+	<string>Kick</string>
+	<key>Toms</key>
+	<string>Tom</string>
+	<key>Snares</key>
+	<string>Snare</string>
+	<key>Cymbals</key>
+	<string>Cymbal</string>
+	<key>Hi-hats</key>
+	<string>Hi-hat</string>
+	<key>Percussions</key>
+	<string>Percussion</string>
+	<key>Shakers</key>
+	<string>Shaker</string>
+	<key>Tambourines</key>
+	<string>Tambourine</string>
+	<key>Congas</key>
+	<string>Conga</string>
+	<key>Bongos</key>
+	<string>Bongo</string>
+	<key>Cowbells</key>
+	<string>Cowbell</string>
+	<key>Claves</key>
+	<string>Clave</string>
+	<key>Vinyls</key>
+	<string>Vinyl/Scratch</string>
+	<key>Scratches</key>
+	<string>Vinyl/Scratch</string>
+	<key>Males</key>
+	<string>Male</string>
+	<key>Females</key>
+	<string>Female</string>
+	<key>Choirs</key>
+	<string>Choir</string>
+	<key>Pianos</key>
+	<string>Piano</string>
+	<key>Electric Pianos</key>
+	<string>Electric Piano</string>
+	<key>Organs</key>
+	<string>Organ</string>
+	<key>Clavinets</key>
+	<string>Clavinet</string>
+	<key>Accordions</key>
+	<string>Accordion</string>
+	<key>Synthesizers</key>
+	<string>Synthesizer</string>
+	<key>Electric Guitars</key>
+	<string>Electric Guitar</string>
+	<key>Acoustic Guitars</key>
+	<string>Acoustic Guitar</string>
+	<key>Banjos</key>
+	<string>Banjo</string>
+	<key>Mandolins</key>
+	<string>Mandolin</string>
+	<key>Slide Guitars</key>
+	<string>Slide Guitar</string>
+	<key>Pedal Steel Guitars</key>
+	<string>Pedal Steel Guitar</string>
+	<key>Basses</key>
+	<string>Bass</string>
+	<key>Electric Basses</key>
+	<string>Electric Bass</string>
+	<key>Acoustic Basses</key>
+	<string>Acoustic Bass</string>
+	<key>Electronic Basses</key>
+	<string>Synthetic Bass</string>
+	<key>Electronic Bass</key>
+	<string>Synthetic Bass</string>
+	<key>Violins</key>
+	<string>Violin</string>
+	<key>Violas</key>
+	<string>Viola</string>
+	<key>Cellos</key>
+	<string>Cello</string>
+	<key>Harps</key>
+	<string>Harp</string>
+	<key>Kotos</key>
+	<string>Koto</string>
+	<key>Sitars</key>
+	<string>Sitar</string>
+	<key>Horns</key>
+	<string>Horn/Wind</string>
+	<key>Saxophones</key>
+	<string>Saxophone</string>
+	<key>Trumpets</key>
+	<string>Trumpet</string>
+	<key>Flutes</key>
+	<string>Flute</string>
+	<key>Trombones</key>
+	<string>Trombone</string>
+	<key>Clarinets</key>
+	<string>Clarinet</string>
+	<key>French Horns</key>
+	<string>French Horn</string>
+	<key>Tubas</key>
+	<string>Tuba</string>
+	<key>Oboes</key>
+	<string>Oboe</string>
+	<key>Harmonicas</key>
+	<string>Harmonica</string>
+	<key>Recorders</key>
+	<string>Recorder</string>
+	<key>Pan Flutes</key>
+	<string>Pan Flute</string>
+	<key>Bagpipes</key>
+	<string>Bagpipe</string>
+	<key>Bassoons</key>
+	<string>Bassoon</string>
+	<key>Mallet</key>
+	<string>Mallets</string>
+	<key>Steel Drums</key>
+	<string>Steel Drum</string>
+	<key>Vibraphones</key>
+	<string>Vibraphone</string>
+	<key>Marimbas</key>
+	<string>Marimba</string>
+	<key>Xylophones</key>
+	<string>Xylophone</string>
+	<key>Kalimbas</key>
+	<string>Kalimba</string>
+	<key>Bells</key>
+	<string>Bell</string>
+	<key>Timpanis</key>
+	<string>Timpani</string>
+	<key>Atmospheres</key>
+	<string>Texture/Atmosphere</string>
+	<key>Textures</key>
+	<string>Texture/Atmosphere</string>
+	<key>Sound Effects</key>
+	<string>Sound Effect</string>
+	
+<key>Organic</key><string>Acoustic</string>
+<key>Acoust</key><string>Acoustic</string>
+<key>Natural</key><string>Acoustic</string>
+<key>Upright</key><string>Acoustic Bass</string>
+<key>Jazz Bass</key><string>Acoustic Bass</string>
+<key>Double Bass</key><string>Acoustic Bass</string>
+<key>FunkyUpright</key><string>Acoustic Bass</string>
+<key>Freetime</key><string>Arrhythmic</string>
+<key>Oriental</key><string>World/Ethnic</string>
+<key>Ding Dong</key><string>Bell</string>
+<key>Dring</key><string>Bell</string>
+<key>Clang</key><string>Bell</string>
+<key>Bongos</key><string>Bongo</string>
+<key>Cellos</key><string>Cello</string>
+<key>Friendly</key><string>Cheerful</string>
+<key>Merry</key><string>Cheerful</string>
+<key>Partytime</key><string>Cheerful</string>
+<key>Prancin</key><array><string>Cheerful</string><string>Grooving</string></array>
+<key>Prancing</key><array><string>Cheerful</string><string>Grooving</string></array>
+<key>Soaring</key><string>Cheerful</string>
+<key>Sparkle</key><string>Cheerful</string>
+<key>Sparkly</key><string>Cheerful</string>
+<key>Upbeat</key><string>Cheerful</string>
+<key>New Age</key><string>Cinematic/New Age</string>
+<key>Cinematic</key><string>Cinematic/New Age</string>
+<key>Classical</key><string>Orchestral</string>
+<key>Orchestra</key><string>Orchestral</string>
+<key>Claves</key><string>Clave</string>
+<key>Claves</key><array><string>Clave</string><string>World/Ethnic</string></array>
+<key>Clav</key><string>Clavinet</string>
+<key>FunkyClav</key><string>Clavinet</string>
+<key>Pristine</key><string>Clean</string>
+<key>Congas</key><string>Conga</string>
+<key>Twang</key><string>Country/Folk</string>
+<key>Bluegrass</key><string>Country/Folk</string>
+<key>Country</key><string>Country/Folk</string>
+<key>Folk</key><string>Country/Folk</string>
+<key>Hillbilly</key><string>Country/Folk</string>
+<key>Nashville</key><string>Country/Folk</string>
+<key>Opry</key><string>Country/Folk</string>
+<key>Hoedown</key><string>Country/Folk</string>
+<key>Hodown</key><string>Country/Folk</string>
+<key>Ride</key><string>Cymbal</string>
+<key>Creepy</key><string>Dark</string>
+<key>Depressive</key><string>Dark</string>
+<key>Gnarled</key><string>Dark</string>
+<key>Haunted</key><string>Dark</string>
+<key>Haunting</key><string>Dark</string>
+<key>Infernal</key><string>Dark</string>
+<key>Inferno</key><string>Dark</string>
+<key>Mysterious</key><string>Dark</string>
+<key>Mystery</key><string>Dark</string>
+<key>Mystico</key><string>Dark</string>
+<key>Electric Bass</key><array><string>Electric Bass</string><string>Grooving</string></array>
+<key>Nasty</key><array><string>Dark</string><string>Intense</string></array>
+<key>Obnoxious</key><array><string>Dark</string><string>Intense</string></array>
+<key>Scary</key><string>Dark</string>
+<key>Somber</key><array><string>Dark</string><string>Relaxed</string></array>
+<key>Suspense</key><string>Dark</string>
+<key>Warped</key><string>Dark</string>
+<key>Weird</key><string>Dark</string>
+<key>Wicked</key><array><string>Dark</string><string>Intense</string></array>
+<key>Atonal</key><string>Dissonant</string>
+<key>Atonaloop</key><string>Dissonant</string>
+<key>Atonalouge</key><string>Dissonant</string>
+<key>Searing</key><string>Distorted</string>
+<key>Chunk</key><string>Distorted</string>
+<key>Chunky</key><string>Distorted</string>
+<key>Crunch</key><string>Distorted</string>
+<key>Crunchy</key><string>Distorted</string>
+<key>Dirty</key><string>Distorted</string>
+<key>Distort</key><string>Distorted</string>
+<key>Distortion</key><string>Distorted</string>
+<key>Distorto</key><string>Distorted</string>
+<key>Disty</key><string>Distorted</string>
+<key>Fuzz</key><string>Distorted</string>
+<key>Grungy</key><string>Distorted</string>
+<key>Megasubfuzz</key><string>Distorted</string>
+<key>Overdrive</key><string>Distorted</string>
+<key>Unclean</key><string>Distorted</string>
+<key>Drums</key><string>Drum Kit</string>
+<key>ElecBeat</key><string>Drums</string>
+<key>Kit</key><string>Drum Kit</string>
+<key>DrumKit</key><string>Drum Kit</string>
+<key>Baldersson</key><string>Drum Kit</string>
+<key>DrumRoll</key><string>Drum Kit</string>
+<key>Drumbeat</key><string>Drum Kit</string>
+<key>Drumbeats</key><string>Drum Kit</string>
+<key>Drumloop</key><string>Drum Kit</string>
+<key>Drummer</key><string>Drum Kit</string>
+<key>Drummers</key><string>Drum Kit</string>
+<key>Drummin</key><string>Drum Kit</string>
+<key>Drumming</key><string>Drum Kit</string>
+<key>Siggi</key><string>Drum Kit</string>
+<key>808</key><string>Electronic Beats</string>
+<key>TR808</key><string>Electronic Beats</string>
+<key>TR-808</key><string>Electronic Beats</string>
+<key>909</key><string>Electronic Beats</string>
+<key>TR909</key><string>Electronic Beats</string>
+<key>TR-909</key><string>Electronic Beats</string>
+<key>Lin</key><string>Electronic Beats</string>
+<key>Groovebox</key><string>Electronic Beats</string>
+<key>Groove box</key><string>Electronic Beats</string>
+<key>Drumulator</key><string>Electronic Beats</string>
+<key>AIRBEAT</key><string>Electronic Beats</string>
+<key>Anabeat</key><string>Electronic Beats</string>
+<key>Flange</key><string>Processed</string>
+<key>Flanged</key><string>Processed</string>
+<key>Flangy</key><string>Processed</string>
+<key>Digi</key><string>Electric</string>
+<key>Digital</key><string>Electric</string>
+<key>ELECTRIC</key><string>Electric</string>
+<key>ELECTRONIC</key><string>Electric</string>
+<key>Pbass</key><string>Electric Bass</string>
+<key>P Bass</key><string>Electric Bass</string>
+<key>Fender Bass</key><string>Electric Bass</string>
+<key>Strat</key><string>Electric Guitar</string>
+<key>Stratocaster</key><string>Electric Guitar</string>
+<key>Les Paul</key><string>Electric Guitar</string>
+<key>PRS</key><string>Electric Guitar</string>
+<key>Marshall</key><string>Electric Guitar</string>
+<key>Telecaster</key><string>Electric Guitar</string>
+<key>Chicken Pickin</key><string>Electric Guitar</string>
+<key>Wurlitzer</key><string>Electric Piano</string>
+<key>Rhodes</key><string>Electric Piano</string>
+<key>Suitcase</key><string>Electric Piano</string>
+<key>Tines</key><string>Electric Piano</string>
+<key>Rhodes</key><string>Electric Piano</string>
+<key>Wurlitzer</key><string>Electric Piano</string>
+<key>303</key><string>Synthetic Bass</string>
+<key>TB303</key><string>Synthetic Bass</string>
+<key>TB-303</key><string>Synthetic Bass</string>
+<key>Club</key><string>Electronic/Dance</string>
+<key>Cyber</key><array><string>Electronic/Dance</string><string>Electric</string></array>
+<key>DeeJaay</key><array><string>Electronic/Dance</string><string>Grooving</string></array>
+<key>Dnb</key><string>Electronic/Dance</string>
+<key>ELECTRO</key><array><string>Electronic/Dance</string><string>Electric</string></array>
+<key>Fastbreaks</key><string>Electronic/Dance</string>
+<key>House</key><string>Electronic/Dance</string>
+<key>Housey</key><string>Electronic/Dance</string>
+<key>Industrial</key><array><string>Electronic/Dance</string><string>Intense</string><string>Dark</string></array>
+<key>Indutrial</key><array><string>Electronic/Dance</string><string>Intense</string><string>Dark</string></array>
+<key>Kraftwerk</key><array><string>Electronic/Dance</string><string>Electric</string></array>
+<key>Big Beat</key><string>Electronic/Dance</string>
+<key>Dance</key><string>Electronic/Dance</string>
+<key>Disco</key><string>Electronic/Dance</string>
+<key>Trance</key><string>Electronic/Dance</string>
+<key>Two Step</key><string>Electronic/Dance</string>
+<key>Drum n Bass</key><string>Electronic/Dance</string>
+<key>Trip Hop</key><string>Electronic/Dance</string>
+<key>IDM</key><string>Electronic/Dance</string>
+<key>Techno</key><array><string>Electronic/Dance</string><string>Electric</string></array>
+<key>Technology</key><array><string>Electronic/Dance</string><string>Electric</string></array>
+<key>Teckno</key><array><string>Electronic/Dance</string><string>Electric</string></array>
+<key>Tekno</key><array><string>Electronic/Dance</string><string>Electric</string></array>
+<key>Frantic</key><string>Intense</string>
+<key>Frenetic</key><string>Intense</string>
+<key>Frenzy</key><string>Intense</string>
+<key>Mixed</key><string>Ensemble</string>
+<key>Group</key><string>Ensemble</string>
+<key>Duo</key><string>Ensemble</string>
+<key>Trio</key><string>Ensemble</string>
+<key>Quartet</key><string>Ensemble</string>
+<key>Quintet</key><string>Ensemble</string>
+<key>Sextet</key><string>Ensemble</string>
+<key>Septet</key><string>Ensemble</string>
+<key>Octet</key><string>Ensemble</string>
+<key>Nonet</key><string>Ensemble</string>
+<key>Combination</key><string>Ensemble</string>
+<key>Group</key><string>Ensemble</string>
+<key>Buddah</key><string>World/Ethnic</string>
+<key>Buddha</key><string>World/Ethnic</string>
+<key>Cumbia</key><string>World/Ethnic</string>
+<key>Curry</key><string>World/Ethnic</string>
+<key>Didgeridoo</key><string>World/Ethnic</string>
+<key>Didjeridoo</key><string>World/Ethnic</string>
+<key>Dizu</key><string>World/Ethnic</string>
+<key>Djembe</key><array><string>World/Ethnic</string><string>Percussion</string></array>
+<key>Erhu</key><string>World/Ethnic</string>
+<key>Ethnicity</key><string>World/Ethnic</string>
+<key>India</key><string>World/Ethnic</string>
+<key>Indian</key><string>World/Ethnic</string>
+<key>Indonesia</key><string>World/Ethnic</string>
+<key>Italian</key><string>World/Ethnic</string>
+<key>Italiano</key><string>World/Ethnic</string>
+<key>Jamaica</key><array><string>World/Ethnic</string><string>Grooving</string></array>
+<key>Japan</key><string>World/Ethnic</string>
+<key>Jew'sHarp</key><string>World/Ethnic</string>
+<key>Jhanji</key><string>World/Ethnic</string>
+<key>Kabuki</key><string>World/Ethnic</string>
+<key>Kartal</key><string>World/Ethnic</string>
+<key>Kashik</key><string>World/Ethnic</string>
+<key>Kemong</key><string>World/Ethnic</string>
+<key>Kempur</key><string>World/Ethnic</string>
+<key>Kendang</key><string>World/Ethnic</string>
+<key>Khong</key><string>World/Ethnic</string>
+<key>Muslim</key><string>World/Ethnic</string>
+<key>Navajo</key><string>World/Ethnic</string>
+<key>Opium</key><array><string>World/Ethnic</string><string>Relaxed</string></array>
+<key>Paigu</key><string>World/Ethnic</string>
+<key>Pipa</key><string>World/Ethnic</string>
+<key>Tabla</key><array><string>World/Ethnic</string><string>Percussion</string></array>
+<key>Tablas</key><array><string>World/Ethnic</string><string>Percussion</string></array>
+<key>Tampura</key><string>World/Ethnic</string>
+<key>Tango</key><string>World/Ethnic</string>
+<key>Thai</key><string>World/Ethnic</string>
+<key>Yangchin</key><string>World/Ethnic</string>
+<key>Female Vox</key><string>Female</string>
+<key>Flutes</key><string>Flute</string>
+<key>Ocarena</key><string>Flute</string>
+<key>Occarina</key><string>Flute</string>
+<key>Ocarina</key><string>Flute</string>
+<key>Panpipe</key><string>Flute</string>
+<key>Ho-Down</key><string>Country/Folk</string>
+<key>Hoedown</key><string>Country/Folk</string>
+<key>Click</key><string>Grooving</string>
+<key>Deep&amp;Bangin</key><string>Grooving</string>
+<key>Deep&amp;Groovin</key><string>Grooving</string>
+<key>Driving</key><array><string>Grooving</string><string>Intense</string></array>
+<key>FLOWING</key><string>Grooving</string>
+<key>FUNKY</key><string>Grooving</string>
+<key>Funk</key><array><string>Grooving</string><string>Urban</string></array>
+<key>Funk-Shuffle</key><array><string>Grooving</string><string>Urban</string></array>
+<key>Funkish</key><array><string>Grooving</string><string>Urban</string></array>
+<key>Groov</key><string>Grooving</string>
+<key>Groove</key><string>Grooving</string>
+<key>Grooves</key><string>Grooving</string>
+<key>Groovin</key><string>Grooving</string>
+<key>Groovy</key><string>Grooving</string>
+<key>Hippy</key><string>Grooving</string>
+<key>Jungle</key><string>Grooving</string>
+<key>Kickin</key><string>Grooving</string>
+<key>Kickin'</key><string>Grooving</string>
+<key>Pulse</key><string>Grooving</string>
+<key>Pulses</key><string>Grooving</string>
+<key>Pulsing</key><string>Grooving</string>
+<key>Pulsy</key><string>Grooving</string>
+<key>Pump</key><string>Grooving</string>
+<key>Pumper</key><string>Grooving</string>
+<key>Pumpin</key><string>Grooving</string>
+<key>Pumping</key><string>Grooving</string>
+<key>Sexy</key><array><string>Grooving</string><string>Relaxed</string></array>
+<key>Shuffle</key><string>Grooving</string>
+<key>Blues Harp</key><string>Harmonica</string>
+<key>Hat</key><string>Hi-hat</string>
+<key>Hi hat</key><string>Hi-hat</string>
+<key>Hi-Hatz</key><string>Hi-hat</string>
+<key>HiHat</key><string>Hi-hat</string>
+<key>HiHats</key><string>Hi-hat</string>
+<key>Horn Section</key><string>Horn/Wind</string>
+<key>Horn</key><string>Horn/Wind</string>
+<key>Woodwind</key><string>Horn/Wind</string>
+<key>Pipe</key><string>Horn/Wind</string>
+<key>Aggresive</key><string>Intense</string>
+<key>Aggressor</key><string>Intense</string>
+<key>Agitated</key><string>Intense</string>
+<key>Angry</key><string>Intense</string>
+<key>Angst</key><string>Intense</string>
+<key>Clangy</key><string>Intense</string>
+<key>Crush</key><string>Intense</string>
+<key>Crusher</key><string>Intense</string>
+<key>Crushing</key><string>Intense</string>
+<key>Destroy</key><string>Intense</string>
+<key>Destroyed</key><string>Intense</string>
+<key>Destroyer</key><string>Intense</string>
+<key>Distructor</key><string>Intense</string>
+<key>Extreme</key><string>Intense</string>
+<key>FEAR</key><array><string>Intense</string><string>Dark</string></array>
+<key>Fury</key><string>Intense</string>
+<key>Grind</key><string>Intense</string>
+<key>Grinder</key><string>Intense</string>
+<key>Gritty</key><string>Intense</string>
+<key>Hard</key><string>Intense</string>
+<key>Hardcore</key><string>Intense</string>
+<key>Harsh</key><string>Intense</string>
+<key>Harshness</key><string>Intense</string>
+<key>Hate</key><string>Intense</string>
+<key>Headbanger</key><string>Intense</string>
+<key>Heavy</key><string>Intense</string>
+<key>Hellraiser</key><string>Intense</string>
+<key>Hyper</key><string>Intense</string>
+<key>Insane</key><string>Intense</string>
+<key>Insanity</key><array><string>Intense</string><string>Dark</string></array>
+<key>Invasive</key><string>Intense</string>
+<key>Kaos</key><string>Intense</string>
+<key>Madness</key><string>Intense</string>
+<key>Mayhem</key><string>Intense</string>
+<key>Mean</key><string>Intense</string>
+<key>Meaness</key><string>Intense</string>
+<key>Noise</key><array><string>Intense</string><string>Distorted</string></array>
+<key>Noises</key><array><string>Intense</string><string>Distorted</string></array>
+<key>Noize</key><array><string>Intense</string><string>Distorted</string></array>
+<key>Power</key><string>Intense</string>
+<key>Rage</key><array><string>Intense</string><string>Dark</string></array>
+<key>Rugged</key><string>Intense</string>
+<key>Sadistic</key><array><string>Intense</string><string>Dark</string></array>
+<key>Scream</key><array><string>Intense</string><string>Dark</string></array>
+<key>Screamer</key><array><string>Intense</string><string>Dark</string></array>
+<key>Screaming</key><array><string>Intense</string><string>Dark</string></array>
+<key>Screech</key><array><string>Intense</string><string>Dark</string></array>
+<key>Shredder</key><array><string>Intense</string><string>Dark</string></array>
+<key>Smack</key><string>Intense</string>
+<key>Snarling</key><string>Intense</string>
+<key>Speedy</key><string>Intense</string>
+<key>Squeal</key><string>Intense</string>
+<key>Stabbing</key><array><string>Intense</string><string>Dark</string></array>
+<key>Stampede</key><string>Intense</string>
+<key>Sting</key><string>Intense</string>
+<key>Stings</key><string>Intense</string>
+<key>Terminator</key><string>Intense</string>
+<key>Terror</key><array><string>Intense</string><string>Dark</string></array>
+<key>Titanic</key><string>Intense</string>
+<key>Wailing</key><string>Intense</string>
+<key>Warrior</key><string>Intense</string>
+<key>Weapon</key><string>Intense</string>
+<key>Xtreme</key><string>Intense</string>
+<key>Jazzy</key><string>Jazz</string>
+<key>Lounge</key><string>Jazz</string>
+<key>Swing</key><string>Jazz</string>
+<key>Kick Drum</key><string>Kick</string>
+<key>Bass Drum</key><string>Kick</string>
+<key>Male Vox</key><string>Male</string>
+<key>Kalimbas</key><string>Mallets</string>
+<key>Argpeggio</key><string>Melodic</string>
+<key>Arpeggiator</key><string>Melodic</string>
+<key>Arpeggie</key><string>Melodic</string>
+<key>Arpeggio</key><string>Melodic</string>
+<key>Arpeggios</key><string>Melodic</string>
+<key>Arpegiated</key><string>Melodic</string>
+<key>Arpegio</key><string>Melodic</string>
+<key>Arppegio</key><string>Melodic</string>
+<key>Harmony</key><string>Melodic</string>
+<key>Melody</key><string>Melodic</string>
+<key>Musical</key><string>Melodic</string>
+<key>Airy</key><string>Cinematic/New Age</string>
+<key>NewAge</key><string>Cinematic/New Age</string>
+<key>Oboes</key><string>Oboe</string>
+<key>B3</key><string>Organ</string>
+<key>Farfisa</key><string>Organ</string>
+<key>Drawbars</key><string>Organ</string>
+<key>OrgPad</key><string>Organ</string>
+<key>Pedal Steel</key><string>Pedal Steel Guitar</string>
+<key>Gong</key><string>Percussion</string>
+<key>Sleighbells</key><string>Percussion</string>
+<key>Clap</key><string>Percussion</string>
+<key>Dumbec</key><array><string>Percussion</string><string>World/Ethnic</string></array>
+<key>Dumbeck</key><array><string>Percussion</string><string>World/Ethnic</string></array>
+<key>Dumbek</key><array><string>Percussion</string><string>World/Ethnic</string></array>
+<key>Dumbek-Kick</key><array><string>Percussion</string><string>World/Ethnic</string></array>
+<key>Dumbeks</key><array><string>Percussion</string><string>World/Ethnic</string></array>
+<key>Gourd</key><string>Percussion</string>
+<key>Jimbe</key><array><string>Percussion</string><string>World/Ethnic</string></array>
+<key>Junkyard_Rhythms</key><string>Percussion</string>
+<key>Maraca</key><string>Percussion</string>
+<key>Maracas</key><string>Percussion</string>
+<key>Maraccas</key><string>Percussion</string>
+<key>Rainstick</key><string>Percussion</string>
+<key>Rattle</key><string>Percussion</string>
+<key>Timbale</key><string>Percussion</string>
+<key>Timbales</key><string>Percussion</string>
+<key>Triangle</key><string>Percussion</string>
+<key>Triangles</key><string>Percussion</string>
+<key>Vibraslap</key><string>Percussion</string>
+<key>Washboard</key><array><string>Percussion</string><string>Country/Folk</string></array>
+<key>Pianos</key><string>Piano</string>
+<key>Synthetic</key><string>Processed</string>
+<key>Effected</key><string>Processed</string>
+<key>Affected</key><string>Processed</string>
+<key>Delayed</key><string>Processed</string>
+<key>Compressed</key><string>Processed</string>
+<key>Filtered</key><string>Processed</string>
+<key>Phazed</key><string>Processed</string>
+<key>Flanged</key><string>Processed</string>
+<key>Wet</key><string>Processed</string>
+<key>Backward</key><string>Processed</string>
+<key>Backwards</key><string>Processed</string>
+<key>Effect</key><string>Processed</string>
+<key>Effected</key><string>Processed</string>
+<key>Effects</key><string>Processed</string>
+<key>Efx</key><string>Processed</string>
+<key>Filter</key><string>Processed</string>
+<key>Filtered</key><string>Processed</string>
+<key>Filtering</key><string>Processed</string>
+<key>Filtery</key><string>Processed</string>
+<key>Processing</key><string>Processed</string>
+<key>Psychedelic</key><string>Processed</string>
+<key>Reverb</key><string>Processed</string>
+<key>Reverse</key><string>Processed</string>
+<key>Vocobeat</key><string>Processed</string>
+<key>Vocode</key><string>Processed</string>
+<key>Vocoded</key><string>Processed</string>
+<key>Vocoder</key><string>Processed</string>
+<key>Relaxing</key><string>Relaxed</string>
+<key>Mellow</key><string>Relaxed</string>
+<key>Laid Back</key><string>Relaxed</string>
+<key>Tranquil</key><string>Relaxed</string>
+<key>Ballad</key><string>Relaxed</string>
+<key>Downtempo</key><array><string>Relaxed</string><string>Grooving</string></array>
+<key>Dream</key><string>Relaxed</string>
+<key>Dreamy</key><string>Relaxed</string>
+<key>Faded</key><string>Relaxed</string>
+<key>Fairy</key><string>Relaxed</string>
+<key>Floating</key><string>Relaxed</string>
+<key>Fluffy</key><string>Relaxed</string>
+<key>Gentle</key><string>Relaxed</string>
+<key>Heaven</key><string>Relaxed</string>
+<key>Heavenly</key><string>Relaxed</string>
+<key>Hypnotic</key><string>Relaxed</string>
+<key>Innocence</key><string>Relaxed</string>
+<key>Paradise</key><array><string>Relaxed</string><string>Cheerful</string></array>
+<key>Sleeping</key><string>Relaxed</string>
+<key>Sleepy</key><string>Relaxed</string>
+<key>Slinky</key><array><string>Relaxed</string><string>Grooving</string></array>
+<key>SloFunk</key><array><string>Relaxed</string><string>Urban</string></array>
+<key>SloGroove</key><array><string>Relaxed</string><string>Grooving</string></array>
+<key>Smooth</key><string>Relaxed</string>
+<key>Space</key><array><string>Relaxed</string><string>Processed</string></array>
+<key>Spacey</key><array><string>Relaxed</string><string>Processed</string></array>
+<key>Stardust</key><string>Relaxed</string>
+<key>Starlight</key><string>Relaxed</string>
+<key>Stealthy</key><string>Relaxed</string>
+<key>Textural</key><string>Relaxed</string>
+<key>Texture</key><string>Relaxed</string>
+<key>Textured</key><string>Relaxed</string>
+<key>Textures</key><string>Relaxed</string>
+<key>Whisper</key><string>Relaxed</string>
+<key>Whisperings</key><string>Relaxed</string>
+<key>Strobe</key><string>Grooving</string>
+<key>Rock</key><string>Rock/Blues</string>
+<key>Heavy Metal</key><string>Rock/Blues</string>
+<key>Grunge</key><string>Rock/Blues</string>
+<key>Punk</key><string>Rock/Blues</string>
+<key>Blues</key><string>Rock/Blues</string>
+<key>Sax</key><string>Saxophone</string>
+<key>Tenor Sax</key><string>Saxophone</string>
+<key>Alto Sax</key><string>Saxophone</string>
+<key>Baritone Sax</key><string>Saxophone</string>
+<key>Sax</key><string>Saxophone</string>
+<key>Saxes</key><string>Saxophone</string>
+<key>SHAKER</key><string>Shaker</string>
+<key>Solo</key><string>Single</string>
+<key>Lead</key><string>Single</string>
+<key>One-Shot</key><string>Single</string>
+<key>One Shot</key><string>Single</string>
+<key>One Shots</key><string>Single</string>
+<key>One-Shots</key><string>Single</string>
+<key>OneShot</key><string>Single</string>
+<key>OneShots</key><string>Single</string>
+<key>Electric Slide</key><string>Slide Guitar</string>
+<key>SNARE</key><string>Snare</string>
+<key>Sound FX</key><string>Sound Effect</string>
+<key>Soundfx</key><string>Sound Effect</string>
+<key>Foley</key><string>Sound Effect</string>
+<key>Gunshot</key><string>Sound Effect</string>
+<key>Gun shot</key><string>Sound Effect</string>
+<key>Airplane</key><string>Sound Effect</string>
+<key>Engine Rev</key><string>Sound Effect</string>
+<key>Crashing Waves</key><string>Sound Effect</string>
+<key>Flyby</key><string>Sound Effect</string>
+<key>Footsteps</key><string>Sound Effect</string>
+<key>Applause</key><string>Sound Effect</string>
+<key>Ambulance</key><string>Sound Effect</string>
+<key>Barking</key><string>Sound Effect</string>
+<key>Birds</key><string>Sound Effect</string>
+<key>Car engine</key><string>Sound Effect</string>
+<key>Crowd noise</key><string>Sound Effect</string>
+<key>Explosion</key><string>Sound Effect</string>
+<key>Fireworks</key><string>Sound Effect</string>
+<key>Guns</key><string>Sound Effect</string>
+<key>Helicopter</key><string>Sound Effect</string>
+<key>Laughter</key><string>Sound Effect</string>
+<key>Motorbike</key><string>Sound Effect</string>
+<key>Polic Siren</key><string>Sound Effect</string>
+<key>Ocean Sounds</key><string>Sound Effect</string>
+<key>Whoosh</key><string>Sound Effect</string>
+<key>Water</key><string>Sound Effect</string>
+<key>Lasers</key><string>Sound Effect</string>
+<key>String Sect</key><string>Strings</string>
+<key>Analoop</key><string>Synthesizer</string>
+<key>Analoops</key><string>Synthesizer</string>
+<key>Arp</key><array><string>Synthesizer</string><string>Electronic/Dance</string></array>
+<key>Arps</key><array><string>Synthesizer</string><string>Electronic/Dance</string></array>
+<key>Arpy</key><array><string>Synthesizer</string><string>Electronic/Dance</string></array>
+<key>Arpys</key><array><string>Synthesizer</string><string>Electronic/Dance</string></array>
+<key>Circuit</key><array><string>Synthesizer</string><string>Electronic/Dance</string></array>
+<key>Circuits</key><array><string>Synthesizer</string><string>Electronic/Dance</string></array>
+<key>Juno</key><string>Synthesizer</string>
+<key>Flutey</key><string>Synthesizer</string>
+<key>Reso</key><string>Synthesizer</string>
+<key>Resonant</key><string>Synthesizer</string>
+<key>Prophet</key><string>Synthesizer</string>
+<key>Syn</key><string>Synthesizer</string>
+<key>Synth</key><string>Synthesizer</string>
+<key>Synths</key><string>Synthesizer</string>
+<key>Nord</key><string>Synthesizer</string>
+<key>Proteus</key><string>Synthesizer</string>
+<key>Moog</key><string>Synthesizer</string>
+<key>Minimoog</key><string>Synthesizer</string>
+<key>Juno</key><string>Synthesizer</string>
+<key>Vangelis</key><string>Synthesizer</string>
+<key>Dynacord</key><string>Synthesizer</string>
+<key>Emu</key><string>Synthesizer</string>
+<key>Oberheim</key><string>Synthesizer</string>
+<key>Roland</key><string>Synthesizer</string>
+<key>Synclavier</key><string>Synthesizer</string>
+<key>Univox</key><string>Synthesizer</string>
+<key>Casio</key><string>Synthesizer</string>
+<key>LFO</key><array><string>Synthesizer</string><string>Electronic/Dance</string></array>
+<key>PAD</key><string>Synthesizer</string>
+<key>Rezo</key><string>Synthesizer</string>
+<key>Rezy</key><string>Synthesizer</string>
+<key>Sine</key><string>Synthesizer</string>
+<key>SynFX</key><string>Synthesizer</string>
+<key>SynPad</key><string>Synthesizer</string>
+<key>SynthBass</key><string>Synthesizer</string>
+<key>Synthesizers</key><string>Synthesizer</string>
+<key>Voxpad</key><string>Synthesizer</string>
+<key>Oscillation</key><string>Synthesizer</string>
+<key>Oscillations</key><string>Synthesizer</string>
+<key>Oscillator</key><string>Synthesizer</string>
+<key>Taborine</key><string>Tambourine</string>
+<key>Tamborine</key><string>Tambourine</string>
+<key>Tambourines</key><string>Tambourine</string>
+<key>ATMOS2</key><string>Texture/Atmosphere</string>
+<key>Ambience</key><string>Texture/Atmosphere</string>
+<key>Ambient</key><string>Texture/Atmosphere</string>
+<key>Atmo</key><string>Texture/Atmosphere</string>
+<key>Atmos</key><string>Texture/Atmosphere</string>
+<key>AtmosScapes</key><string>Texture/Atmosphere</string>
+<key>Atmosphere</key><string>Texture/Atmosphere</string>
+<key>Atmospheres</key><string>Texture/Atmosphere</string>
+<key>Atmospheric</key><string>Texture/Atmosphere</string>
+<key>Atmospherica</key><string>Texture/Atmosphere</string>
+<key>Atmospherics</key><string>Texture/Atmosphere</string>
+<key>Cloud</key><array><string>Texture/Atmosphere</string><string>Relaxed</string></array>
+<key>Clouds</key><array><string>Texture/Atmosphere</string><string>Relaxed</string></array>
+<key>Texture</key><string>Texture/Atmosphere</string>
+<key>Text</key><string>Texture/Atmosphere</string>
+<key>Atmos</key><string>Texture/Atmosphere</string>
+<key>Wash</key><string>Texture/Atmosphere</string>
+<key>Tom Tom</key><string>Tom</string>
+<key>Toms</key><string>Tom</string>
+<key>Trombones</key><string>Trombone</string>
+<key>Flugelhorn</key><string>Trumpet</string>
+<key>Acid Jazz</key><string>Urban</string>
+<key>Gangsta</key><string>Urban</string>
+<key>Ghetto</key><string>Urban</string>
+<key>HIPHOP</key><string>Urban</string>
+<key>Hip-Hop</key><string>Urban</string>
+<key>Motown</key><array><string>Urban</string><string>Grooving</string><string>Melodic</string></array>
+<key>Oldschool</key><string>Urban</string>
+<key>Rap</key><string>Urban</string>
+<key>RnB</key><string>Urban</string>
+<key>Soul</key><array><string>Urban</string><string>Grooving</string></array>
+<key>Street</key><string>Urban</string>
+<key>Vibes</key><string>Vibraphone</string>
+<key>Vibes</key><string>Vibraphone</string>
+<key>Vinyl</key><string>Vinyl/Scratch</string>
+<key>Scratching</key><string>Vinyl/Scratch</string>
+<key>Decks</key><string>Vinyl/Scratch</string>
+<key>Dektronics</key><string>Vinyl/Scratch</string>
+<key>Decktronics</key><string>Vinyl/Scratch</string>
+<key>Scratch</key><string>Vinyl/Scratch</string>
+<key>Scratcher</key><string>Vinyl/Scratch</string>
+<key>Scratchin</key><string>Vinyl/Scratch</string>
+<key>Scratching</key><string>Vinyl/Scratch</string>
+<key>Violas</key><string>Viola</string>
+<key>Violins</key><string>Violin</string>
+<key>Voice</key><string>Vocals</string>
+<key>Vox</key><string>Vocals</string>
+<key>Aaah</key><string>Vocals</string>
+<key>Ooh</key><string>Vocals</string>
+<key>Ahh</key><string>Vocals</string>
+<key>Ahhh</key><string>Vocals</string>
+<key>Ahhhh</key><string>Vocals</string>
+<key>African</key><string>World/Ethnic</string>
+<key>Afro</key><string>World/Ethnic</string>
+<key>Reggae</key><array><string>World/Ethnic</string><string>Grooving</string><string>Relaxed</string></array>
+<key>Rhumba</key><string>World/Ethnic</string>
+<key>Tribal</key><array><string>World/Ethnic</string><string>Grooving</string><string>Intense</string></array>
+<key>Reggea</key><array><string>World/Ethnic</string><string>Grooving</string><string>Relaxed</string></array>
+<key>Xylo</key><string>Xylophone</string>
+<key>Cymbol</key><string>Cymbal</string>
+<key>Latin</key><string>World/Ethnic</string>
+<key>Drum</key><string>Drums</string>
+<key>Hi hats</key><string>Hi-hat</string>
+<key>Fretless</key><string>Bass</string>
+<key>Bassline</key><string>Bass</string>
+<key>Bass,</key><string>Bass</string>
+<key>Bell,</key><string>Bell</string>
+<key>Twinkles</key><array><string>Cheerful</string><string>Relaxed</string></array>
+<key>Pleasant</key><array><string>Cheerful</string><string>Relaxed</string></array>
+<key>Bright</key><string>Cheerful</string>
+<key>Minimalism</key><string>Cinematic/New Age</string>
+<key>Spektral</key><string>Cinematic/New Age</string>
+<key>Ambentia</key><string>Cinematic/New Age</string>
+<key>Ether</key><string>Cinematic/New Age</string>
+<key>Scapes</key><string>Cinematic/New Age</string>
+<key>Pandora's</key><string>Cinematic/New Age</string>
+<key>Clarinet,</key><string>Clarinet</string>
+<key>Orch</key><string>Orchestral</string>
+<key>Clavs</key><string>Clavinet</string>
+<key>Cleanliness</key><string>Clean</string>
+<key>Conga,</key><string>Conga</string>
+<key>Country-Billy</key><string>Country/Folk</string>
+<key>Polka</key><string>Country/Folk</string>
+<key>Twisted</key><array><string>Dark</string><string>Intense</string></array>
+<key>Strange</key><string>Dark</string>
+<key>Ugly</key><array><string>Dark</string><string>Intense</string></array>
+<key>Void</key><string>Dark</string>
+<key>Crawlies</key><string>Dark</string>
+<key>Creeps</key><string>Dark</string>
+<key>Strangeness</key><string>Dark</string>
+<key>Growls</key><array><string>Dark</string><string>Intense</string></array>
+<key>Creatures</key><string>Dark</string>
+<key>Asylum</key><array><string>Dark</string><string>Intense</string></array>
+<key>Doom</key><array><string>Dark</string><string>Intense</string></array>
+<key>Freaky</key><string>Dark</string>
+<key>Dist</key><string>Distorted</string>
+<key>Feedback</key><string>Distorted</string>
+<key>DistRiff</key><string>Distorted</string>
+<key>DigiGrunge</key><array><string>Distorted</string><string>Electric</string></array>
+<key>Buzz</key><string>Distorted</string>
+<key>Beats</key><string>Drums</string>
+<key>Beat</key><string>Drums</string>
+<key>Breakbeat</key><string>Drums</string>
+<key>Breakbeats</key><string>Drums</string>
+<key>Breaks</key><string>Drums</string>
+<key>Breakz</key><string>Drums</string>
+<key>Brushes</key><string>Drums</string>
+<key>Kits</key><string>Drums</string>
+<key>Hyperbeats</key><string>Drums</string>
+<key>Drums,</key><string>Drums</string>
+<key>Cymbal&amp;Hi</key><string>Drums</string>
+<key>Kick-Snare</key><string>Drums</string>
+<key>Backbeat</key><string>Drums</string>
+<key>Bonham</key><array><string>Drums</string><string>Rock/Blues</string><string>Grooving</string></array>
+<key>Alt.Rockdrums</key><string>Drum Kit</string>
+<key>Drumset</key><string>Drum Kit</string>
+<key>UnProcessed</key><string>Dry</string>
+<key>Electrocomp</key><string>Electric</string>
+<key>Programmed</key><string>Electric</string>
+<key>Transistor</key><string>Electric</string>
+<key>Rez</key><string>Electric</string>
+<key>Sci</key><string>Electric</string>
+<key>Robotic</key><string>Electric</string>
+<key>Blip</key><string>Electric</string>
+<key>Mechanical</key><string>Electric</string>
+<key>Robot</key><array><string>Electric</string><string>Processed</string></array>
+<key>Fretted</key><string>Electric Bass</string>
+<key>Slap</key><string>Electric Bass</string>
+<key>Wammy</key><string>Electric Guitar</string>
+<key>StratFingPick</key><string>Electric Guitar</string>
+<key>ProtoTechno</key><string>Electronic/Dance</string>
+<key>Electronica</key><string>Electronic/Dance</string>
+<key>Rave</key><string>Electronic/Dance</string>
+<key>Resonator</key><string>Electronic/Dance</string>
+<key>Cyclotronic</key><string>Electronic/Dance</string>
+<key>Generator</key><string>Electronic/Dance</string>
+<key>Syntonic</key><string>Electronic/Dance</string>
+<key>TeknoZone</key><array><string>Electronic/Dance</string><string>Electric</string></array>
+<key>TechnoTick</key><string>Electronic/Dance</string>
+<key>Combo</key><string>Ensemble</string>
+<key>Rapoon</key><string>Experimental</string>
+<key>Abstract</key><string>Experimental</string>
+<key>Fills</key><string>Fill</string>
+<key>GFlute</key><string>Flute</string>
+<key>Straight</key><string>Grooving</string>
+<key>Shuffles</key><string>Grooving</string>
+<key>Rhythm&amp;Riffs</key><string>Grooving</string>
+<key>Rhythmica</key><string>Grooving</string>
+<key>AmbiGroove</key><string>Grooving</string>
+<key>Ambi-Grooves</key><string>Grooving</string>
+<key>StreetGroove</key><array><string>Grooving</string><string>Urban</string></array>
+<key>Riffs,</key><string>Grooving</string>
+<key>GroovMaster</key><string>Grooving</string>
+<key>Rhythmic</key><string>Grooving</string>
+<key>Pulse-Pattern</key><array><string>Grooving</string><string>Electric</string></array>
+<key>Fonky</key><string>Grooving</string>
+<key>Rasta</key><array><string>Grooving</string><string>Urban</string></array>
+<key>Rollin'</key><string>Grooving</string>
+<key>Canjira</key><string>Grooving</string>
+<key>Chencheng</key><string>Grooving</string>
+<key>Deemdanna</key><string>Grooving</string>
+<key>Hansduani</key><string>Grooving</string>
+<key>Kempli</key><string>Grooving</string>
+<key>Ni-Shaku</key><string>Grooving</string>
+<key>Swingin</key><string>Grooving</string>
+<key>Slide</key><string>Guitars</string>
+<key>Gtr</key><string>Guitars</string>
+<key>PedalSteel</key><string>Guitars</string>
+<key>Strumming</key><string>Guitars</string>
+<key>strum</key><string>Guitars</string>
+<key>Guitartronics</key><array><string>Guitars</string><string>Processed</string></array>
+<key>Fingerpicking</key><string>Guitars</string>
+<key>Hats</key><string>Hi-hat</string>
+<key>HornCraft</key><string>Horn/Wind</string>
+<key>Brass</key><string>Horn/Wind</string>
+<key>whistle</key><string>Horn/Wind</string>
+<key>Baritone</key><string>Horn/Wind</string>
+<key>Noisy</key><array><string>Intense</string><string>Dark</string></array>
+<key>Hardloop</key><string>Intense</string>
+<key>Thumpin</key><string>Intense</string>
+<key>Monster</key><string>Intense</string>
+<key>Urgent</key><string>Intense</string>
+<key>Growl</key><string>Intense</string>
+<key>Busy</key><string>Intense</string>
+<key>Thunder</key><string>Intense</string>
+<key>Bang</key><string>Intense</string>
+<key>Siren</key><array><string>Intense</string><string>Sound Effect</string></array>
+<key>Killer</key><string>Intense</string>
+<key>Pounding</key><string>Intense</string>
+<key>Keys</key><string>Keyboards</string>
+<key>Keys&amp;Synth</key><string>Keyboards</string>
+<key>Synthia</key><string>Keyboards</string>
+<key>Melodicas</key><string>Keyboards</string>
+<key>Riffs</key><string>Melodic</string>
+<key>Riff</key><string>Melodic</string>
+<key>Licks</key><string>Melodic</string>
+<key>Lick</key><string>Melodic</string>
+<key>Tonal</key><string>Melodic</string>
+<key>Harmonic</key><string>Melodic</string>
+<key>sander</key><string>Melodic</string>
+<key>Harmonics</key><string>Melodic</string>
+<key>Ambient-Melodic</key><array><string>Melodic</string><string>Cinematic/New Age</string></array>
+<key>Perc</key><string>Percussion</string>
+<key>Timbali</key><string>Percussion</string>
+<key>Pots</key><string>Percussion</string>
+<key>Chimes</key><string>Chime</string>
+<key>Claps</key><string>Percussion</string>
+<key>Sleigh</key><string>Percussion</string>
+<key>Rattles,</key><string>Percussion</string>
+<key>Stick-Conga</key><string>Percussion</string>
+<key>Wah</key><string>Processed</string>
+<key>Echo</key><string>Processed</string>
+<key>Delay</key><string>Processed</string>
+<key>Fx'd</key><string>Processed</string>
+<key>Delay,</key><string>Processed</string>
+<key>Wah-Wah</key><string>Processed</string>
+<key>Tremolo</key><string>Processed</string>
+<key>Robovox</key><string>Processed</string>
+<key>DSP</key><string>Processed</string>
+<key>Process</key><string>Processed</string>
+<key>Echoes</key><string>Processed</string>
+<key>Gated</key><string>Processed</string>
+<key>Cosmic</key><string>Processed</string>
+<key>Antimatter</key><string>Processed</string>
+<key>Industry</key><array><string>Processed</string><string>Intense</string></array>
+<key>Robovoice</key><array><string>Processed</string><string>Electric</string></array>
+<key>Phase</key><string>Processed</string>
+<key>Resonance</key><array><string>Processed</string><string>Electric</string></array>
+<key>Sci-Fi</key><array><string>Processed</string><string>Electric</string></array>
+<key>Soft</key><string>Relaxed</string>
+<key>Breezy</key><array><string>Relaxed</string><string>Cheerful</string></array>
+<key>Shimmer</key><string>Relaxed</string>
+<key>Twinkle</key><array><string>Relaxed</string><string>Cheerful</string></array>
+<key>Waltz</key><string>Relaxed</string>
+<key>Flower</key><string>Relaxed</string>
+<key>Breezin'</key><array><string>Relaxed</string><string>Cheerful</string></array>
+<key>Rock-Pop</key><string>Rock/Blues</string>
+<key>Rock-Funk</key><string>Rock/Blues</string>
+<key>Metarock</key><string>Rock/Blues</string>
+<key>Blues-Rock</key><string>Rock/Blues</string>
+<key>Cajun</key><string>Rock/Blues</string>
+<key>Glam</key><string>Rock/Blues</string>
+<key>Rockin</key><string>Rock/Blues</string>
+<key>ClassicRock</key><string>Rock/Blues</string>
+<key>BluesShuffle</key><array><string>Rock/Blues</string><string>Grooving</string></array>
+<key>Shakers,</key><string>Shaker</string>
+<key>Shaker,</key><string>Shaker</string>
+<key>Shakerz</key><string>Shaker</string>
+<key>Solos</key><string>Single</string>
+<key>Individual</key><string>Single</string>
+<key>SFX</key><string>Sound Effect</string>
+<key>Analog</key><string>Synthesizer</string>
+<key>Keys&amp;Synths</key><string>Synthesizer</string>
+<key>Pads</key><string>Synthesizer</string>
+<key>Vortexual</key><array><string>Synthesizer</string><string>Electronic/Dance</string></array>
+<key>Synths&amp;Keyboards</key><string>Synthesizer</string>
+<key>Anasound</key><array><string>Synthesizer</string><string>Electronic/Dance</string></array>
+<key>Synths&amp;Arpeggios</key><string>Synthesizer</string>
+<key>Tamb</key><string>Tambourine</string>
+<key>Soundscape</key><string>Texture/Atmosphere</string>
+<key>Soundscapes</key><string>Texture/Atmosphere</string>
+<key>R&amp;B</key><string>Urban</string>
+<key>Dope</key><string>Urban</string>
+<key>Tables</key><string>Vinyl/Scratch</string>
+<key>Turntable</key><string>Vinyl/Scratch</string>
+<key>Spoken</key><string>Vocals</string>
+<key>LAUGH</key><array><string>Vocals</string><string>Cheerful</string></array>
+<key>Laughs</key><array><string>Vocals</string><string>Cheerful</string></array>
+<key>Voice-C</key><string>Vocals</string>
+<key>Voice-G</key><string>Vocals</string>
+<key>Voice-I</key><string>Vocals</string>
+<key>World</key><string>World/Ethnic</string>
+<key>Spanish</key><string>World/Ethnic</string>
+<key>Rumba</key><string>World/Ethnic</string>
+<key>Ethnic</key><string>World/Ethnic</string>
+<key>Native</key><string>World/Ethnic</string>
+<key>Grueso</key><string>World/Ethnic</string>
+<key>Pelog</key><string>World/Ethnic</string>
+<key>Rumbista</key><string>World/Ethnic</string>
+<key>Oye</key><string>World/Ethnic</string>
+<key>Habanera</key><string>World/Ethnic</string>
+<key>Comparsa</key><string>World/Ethnic</string>
+<key>Merengue</key><string>World/Ethnic</string>
+<key>Arabia</key><string>World/Ethnic</string>
+<key>Maria</key><string>World/Ethnic</string>
+<key>Berimbau</key><string>World/Ethnic</string>
+<key>Baglama</key><string>World/Ethnic</string>
+<key>Chinese</key><string>World/Ethnic</string>
+<key>Kelele</key><string>World/Ethnic</string>
+<key>Djoun</key><string>World/Ethnic</string>
+<key>Dussel</key><string>World/Ethnic</string>
+<key>Guchin</key><string>World/Ethnic</string>
+<key>Fuego</key><string>World/Ethnic</string>
+<key>Cabasa</key><string>World/Ethnic</string>
+<key>Djembe,</key><array><string>World/Ethnic</string><string>Percussion</string></array>
+<key>Akado</key><string>World/Ethnic</string>
+<key>Kendong</key><string>World/Ethnic</string>
+<key>Melodica</key><string>World/Ethnic</string>
+<key>Djoun,</key><string>World/Ethnic</string>
+<key>Suntur</key><string>World/Ethnic</string>
+<key>Exotic</key><string>World/Ethnic</string>
+<key>Samba</key><string>World/Ethnic</string>
+<key>Shaku</key><string>World/Ethnic</string>
+<key>Shenai</key><string>World/Ethnic</string>
+<key>Kendong,</key><string>World/Ethnic</string>
+<key>Darbuka</key><string>World/Ethnic</string>
+<key>Kagan,</key><string>World/Ethnic</string>
+<key>Rahiz</key><string>World/Ethnic</string>
+<key>Rami</key><string>World/Ethnic</string>
+<key>Donno,</key><string>World/Ethnic</string>
+<key>Harmonium</key><string>World/Ethnic</string>
+<key>Dholak</key><string>World/Ethnic</string>
+<key>Durga</key><string>World/Ethnic</string>
+<key>Guidera</key><array><string>World/Ethnic</string><string>Percussion</string></array>
+<key>Maman,</key><string>World/Ethnic</string>
+<key>Mizmah</key><string>World/Ethnic</string>
+<key>Shafqat</key><string>World/Ethnic</string>
+<key>Tumba</key><string>World/Ethnic</string>
+<key>Caracas</key><string>World/Ethnic</string>
+<key>Tablah</key><array><string>World/Ethnic</string><string>Percussion</string></array>
+<key>Bhangra</key><string>World/Ethnic</string>
+<key>Bongolo</key><string>World/Ethnic</string>
+<key>Guido</key><string>World/Ethnic</string>
+<key>Gamelan</key><string>World/Ethnic</string>
+<key>Island</key><array><string>World/Ethnic</string><string>Relaxed</string><string>Cheerful</string></array>
+<key>Saghat</key><string>World/Ethnic</string>
+<key>Arabic</key><string>World/Ethnic</string>
+<key>Bangu</key><string>World/Ethnic</string>
+<key>Bite</key><string>World/Ethnic</string>
+<key>Danadanaana</key><string>World/Ethnic</string>
+<key>Jimbo</key><string>World/Ethnic</string>
+<key>Khene</key><string>World/Ethnic</string>
+<key>Bamboo</key><string>World/Ethnic</string>
+<key>Balalika</key><string>World/Ethnic</string>
+<key>Xylo,</key><string>Xylophone</string>	
+
+<key>Individual instruments</key><string>Single</string>
+<key>Music Beds</key><string>Ensemble</string>
+<key>Sound Effects</key><string>Sound Effect</string>
+<key>Electrocution</key><array><string>Electronic/Dance</string><string>Dark</string><string>Intense</string><string>Electric</string></array>
+<key>Hydroponic Hip</key><array><string>Urban</string><string>Grooving</string></array>
+<key>Hip Hop</key><array><string>Urban</string><string>Grooving</string></array>
+<key>MCs</key><string>Vocals</string>
+<key>Dub Hits</key><string>Urban</string>
+<key>Environments</key><array><string>Cinematic/New Age</string><string>Texture/Atmosphere</string></array>
+<key>Liquid Planet</key><array><string>Cinematic/New Age</string><string>Relaxed</string></array>
+<key>AmbiGroove</key><array><string>Ensemble</string><string>Relaxed</string></array>
+<key>Complete Grooves</key><string>Ensemble</string>
+<key>Dub Hits</key><array><string>Relaxed</string><string>Processed</string></array>
+<key>Kaos FX</key><array><string>Processed</string><string>Distorted</string><string>Intense</string></array>
+<key>Street Grooves</key><array><string>Urban</string><string>Grooving</string></array>
+<key>StreetGroove</key><array><string>Urban</string><string>Grooving</string></array>
+<key>Metaloops</key><array><string>Urban</string><string>Grooving</string></array>
+<key>Waterphone</key><array><string>Cinematic/New Age</string><string>Texture/Atmosphere</string><string>Relaxed</string><string>Processed</string></array>
+<key>Saturn and</key><array><string>Cinematic/New Age</string><string>Relaxed</string></array>
+<key>and Elsewhere</key><array><string>Cinematic/New Age</string><string>Relaxed</string></array>
+<key>Soundworlds</key><array><string>Cinematic/New Age</string><string>Texture/Atmosphere</string><string>Relaxed</string><string>Processed</string></array>
+<key>SynBs</key><array><string>Synthetic Bass</string><string>Electronic/Dance</string><string>Electric</string><string>Grooving</string></array>
+<key>Syn-Bass</key><array><string>Synthetic Bass</string><string>Electronic/Dance</string><string>Electric</string><string>Grooving</string></array>
+<key>SynPad</key><array><string>Synthesizer</string><string>Electric</string><string>Relaxed</string></array>
+<key>Syn-Pad</key><array><string>Synthesizer</string><string>Electric</string><string>Relaxed</string></array>
+<key>Splattercell</key><string>Cinematic/New Age</string>
+<key>David Torn</key><string>Cinematic/New Age</string>
+<key>Cell Damage</key><array><string>Cinematic/New Age</string><string>Texture/Atmosphere</string><string>Relaxed</string><string>Processed</string></array>
+<key>Hard Cells</key><array><string>Cinematic/New Age</string><string>Texture/Atmosphere</string><string>Intense</string></array>
+<key>Microsong Cells</key><array><string>Ensemble</string><string>Cinematic/New Age</string><string>Texture/Atmosphere</string><string>Relaxed</string></array>
+<key>Soft Cells</key><array><string>Cinematic/New Age</string><string>Texture/Atmosphere</string><string>Relaxed</string><string>Processed</string></array>
+<key>Cyclotronic Resonator</key><array><string>Electronic/Dance</string><string>Electric</string></array>
+<key>Downtempo Beats</key><array><string>Drums</string><string>Processed</string><string>Relaxed</string></array>
+<key>Vir Unis</key><array><string>Cinematic/New Age</string><string>Grooving</string><string>Processed</string></array>
+<key>Funky Xtremes</key><array><string>Drums</string><string>Processed</string></array>
+<key>Infinite Soul</key><array><string>Urban</string><string>Grooving</string></array>
+<key>Intelligent Dance</key><array><string>Electronic/Dance</string><string>Processed</string></array>
+<key>Mick Fleetwood</key><string>Drums</string>
+<key>Junkyard_Rhythms</key><array><string>Percussion</string><string>Grooving</string></array>
+<key>Pandora's Toolbox</key><array><string>Cinematic/New Age</string><string>Texture/Atmosphere</string><string>Ensemble</string><string>Relaxed</string></array>
+<key>Syntonic Generator</key><array><string>Electronic Beats</string><string>Processed</string><string>Grooving</string></array>
+<key>Twisted Reality</key><array><string>Cinematic/New Age</string><string>Texture/Atmosphere</string><string>Processed</string></array>
+<key>Native America</key><string>World/Ethnic</string>
+<key>Whiskey, Cigarettes</key><array><string>Guitars</string><string>Rock/Blues</string><string>Melodic</string><string>Grooving</string></array>
+<key>and Gumbo</key><array><string>Guitars</string><string>Rock/Blues</string><string>Melodic</string><string>Grooving</string></array>
+<key>Vortexual Amplitude</key><array><string>Synthesizer</string><string>Electric</string></array>
+
+<key>Signals II</key><array><string>Synthesizer</string><string>Electronic/Dance</string><string>Electric</string></array>
+<key>Bass Taster</key><array><string>Bass</string><string>Grooving</string></array>
+<key>Stick Bass</key><array><string>Bass</string><string>Grooving</string></array>
+<key>Electro-World Percussion</key><string>Electronic/Dance</string>
+<key>Doumbeck</key><array><string>World/Ethnic</string><string>Percussion</string></array>
+<key>Friendly Fire</key><array><string>Cinematic/New Age</string><string>Processed</string></array>
+<key>Belly Dancer</key><array><string>World/Ethnic</string><string>Percussion</string><string>Grooving</string></array>
+<key>Acoustic String</key><array><string>Acoustic</string><string>Strings</string></array>
+<key>Acoustic Drone</key><array><string>Cinematic/New Age</string><string>Texture/Atmosphere</string><string>Processed</string></array>
+<key>DroneLoop</key><array><string>Cinematic/New Age</string><string>Texture/Atmosphere</string><string>Processed</string></array>
+<key>Sub Bass</key><array><string>Synthetic Bass</string><string>Electric</string></array>
+<key>Daly Drums</key><string>Drum Kit</string>
+<key>Abbruzzese Drums</key><string>Drum Kit</string>
+<key>Baldersson Drums</key><string>Drum Kit</string>
+<key>Foundry Drums</key><string>Drum Kit</string>
+<key>FX'd Beats</key><array><string>Drum Kit</string><string>Processed</string></array>
+<key>Beats (Processed)</key><array><string>Drum Kit</string><string>Processed</string></array>
+<key>Beats (UnProcessed)</key><array><string>Drum Kit</string><string>Dry</string></array>
+<key>Bass X</key><string>Electric Bass</string>
+<key>Kit Loops</key><string>Drum Kit</string>
+<key>4-4 Drum</key><string>Drum Kit</string>
+<key>Full Kit</key><string>Drum Kit</string>
+<key>Producer Dan</key><array><string>Drum Kit</string><string>Dry</string></array>
+<key>Russ Loop</key><array><string>Drum Kit</string><string>Dry</string></array>
+<key>Deep Atmospherics</key><array><string>Cinematic/New Age</string><string>Texture/Atmosphere</string><string>Processed</string></array>
+<key>Hybrid Grooves</key><array><string>Electronic Beats</string><string>Ensemble</string></array>
+<key>World Lick</key><string>World/Ethnic</string>
+<key>Occarina</key><array><string>Flute</string><string>Acoustic</string></array>
+<key>Piano Blur</key><array><string>Cinematic/New Age</string><string>Texture/Atmosphere</string><string>Processed</string></array>
+<key>Dry Grooves</key><array><string>Dry</string><string>Grooving</string></array>
+<key>Drumbeat</key><string>Drum Kit</string>
+<key>&amp; Cello</key><array><string>Orchestral</string><string>Ensemble</string></array>
+<key>&amp; Oboe</key><array><string>Orchestral</string><string>Ensemble</string></array>
+<key>&amp; Viola</key><array><string>Orchestral</string><string>Ensemble</string></array>
+<key>&amp; Tuba</key><array><string>Orchestral</string><string>Ensemble</string></array>
+<key>Treated Voices</key><array><string>Vocals</string><string>Processed</string></array>
+<key>Spanish Guitar</key><array><string>Acoustic Guitar</string><string>World/Ethnic</string></array>
+<key>Dialog</key><string>Vocals</string>
+<key>808 Loop</key><string>Electronic Beats</string>
+<key>Acoustic Slide</key><string>Acoustic Guitar</string>
+<key>Workingman's Bass</key><string>Electric Bass</string>
+<key>Straight Kit</key><array><string>Drum Kit</string><string>Dry</string></array>
+<key>Wind Instruments</key><string>Horn/Wind</string>
+<key>dulcimer</key><array><string>Strings</string><string>Acoustic</string><string>World/Ethnic</string></array>
+<key>zither</key><array><string>Strings</string><string>Acoustic</string><string>World/Ethnic</string></array>
+</dict>
+</plist>
+
+

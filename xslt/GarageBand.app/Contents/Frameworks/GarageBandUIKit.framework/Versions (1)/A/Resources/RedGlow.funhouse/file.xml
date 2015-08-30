@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>layers</key>
+	<array>
+		<dict>
+			<key>file</key>
+			<string>01B.tiff</string>
+			<key>offsetX</key>
+			<real>0.0</real>
+			<key>offsetY</key>
+			<real>0.0</real>
+			<key>type</key>
+			<string>image</string>
+		</dict>
+		<dict>
+			<key>classname</key>
+			<string>CIColorMatrix</string>
+			<key>type</key>
+			<string>filter</string>
+			<key>values</key>
+			<dict>
+				<key>inputAVector_CIVectorValue</key>
+				<string>[0 0 0 1]</string>
+				<key>inputBVector_CIVectorValue</key>
+				<string>[0 0 0 0]</string>
+				<key>inputBiasVector_CIVectorValue</key>
+				<string>[1 0 0 0]</string>
+				<key>inputGVector_CIVectorValue</key>
+				<string>[0 0 0 0]</string>
+				<key>inputRVector_CIVectorValue</key>
+				<string>[0 0 0 0]</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>classname</key>
+			<string>CIBloom</string>
+			<key>type</key>
+			<string>filter</string>
+			<key>values</key>
+			<dict>
+				<key>inputIntensity</key>
+				<real>3</real>
+				<key>inputRadius</key>
+				<real>1.2000000476837158</real>
+			</dict>
+		</dict>
+		<dict>
+			<key>classname</key>
+			<string>CIGaussianBlur</string>
+			<key>type</key>
+			<string>filter</string>
+			<key>values</key>
+			<dict>
+				<key>inputRadius</key>
+				<real>1</real>
+			</dict>
+		</dict>
+		<dict>
+			<key>classname</key>
+			<string>CIHueAdjust</string>
+			<key>type</key>
+			<string>filter</string>
+			<key>values</key>
+			<dict>
+				<key>inputAngle</key>
+				<real>0.01745329238474369</real>
+			</dict>
+		</dict>
+		<dict>
+			<key>classname</key>
+			<string>CIColorControls</string>
+			<key>type</key>
+			<string>filter</string>
+			<key>values</key>
+			<dict>
+				<key>inputBrightness</key>
+				<real>-0.20000000298023224</real>
+				<key>inputContrast</key>
+				<real>1.25</real>
+				<key>inputSaturation</key>
+				<real>1.2</real>
+			</dict>
+		</dict>
+		<dict>
+			<key>classname</key>
+			<string>CICrop</string>
+			<key>type</key>
+			<string>filter</string>
+			<key>values</key>
+			<dict>
+				<key>inputRectangle_CIVectorValue</key>
+				<string>[0 0 49 40]</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>file</key>
+			<string>01B.tiff</string>
+			<key>offsetX</key>
+			<real>0.0</real>
+			<key>offsetY</key>
+			<real>0.0</real>
+			<key>type</key>
+			<string>image</string>
+		</dict>
+	</array>
+	<key>windowHeight</key>
+	<real>255</real>
+	<key>windowWidth</key>
+	<real>173</real>
+</dict>
+</plist>

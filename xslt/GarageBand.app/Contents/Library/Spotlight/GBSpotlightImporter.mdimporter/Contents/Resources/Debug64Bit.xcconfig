@@ -1,0 +1,5 @@
+#include "Debug"
+
+ARCHS = x86_64
+GCC_SYMBOLS_PRIVATE_EXTERN = NO
+DEBUG_INFORMATION_FORMAT = dwarf-with-dsym

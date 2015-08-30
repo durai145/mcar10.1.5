@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xsd:schema xmlns:fxs="http://xmlns.heaerie.com/uss" xmlns:targetNamespace="http://xmlns.heaerie.com/CLIENTACCOUNTCRIT" xmlns:xdb="http://xmlns.oracle.com/xdb" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.oracle.com/xdb http://xmlns.oracle.com/xdb/XDBSchema.xsd">
+ <xsd:element name="CLIENTACCOUNTCRIT" type="CLIENTACCOUNTCRITType" xdb:SQLSchema="USSADMIN" xdb:SQLType="CLIENTACCOUNTCRIT"/>
+ <xsd:complexType name="CLIENTACCOUNTCRITType" xdb:SQLSchema="USSADMIN" xdb:SQLType="CLIENTACCOUNTCRIT" xdb:maintainDOM="false">
+  <xsd:sequence>
+   <xsd:element name="FUNCCODE" xdb:SQLName="FUNCCODE" xdb:SQLType="VARCHAR" fxs:ussType="LIST" fxs:ussMndf="Y"   fxs:ussDesc="Y" fxs:ussDataType="LIST" fxs:ussClass="ctable" fxs:ussLabel="CAC0000001" fxs:ussHelp="Y" fxs:ussXML="Y">
+    <xsd:simpleType>
+     <xsd:restriction base="xsd:string">
+      <xsd:maxLength value="1"/>
+     </xsd:restriction>
+    </xsd:simpleType>
+   </xsd:element>
+   <xsd:element name="CLIENTACCOUNT" type="xsd:double" xdb:SQLName="CLIENTACCOUNT" xdb:SQLType="NUMBER" fxs:ussMndf="Y"  fxs:ussType="NUMBER" fxs:ussDesc="N" fxs:ussDataType="NUMBER" fxs:ussClass="ctable" fxs:ussLabel="CAC0000002" fxs:ussHelp="Y" fxs:ussXML="Y"/>
+  </xsd:sequence>
+ </xsd:complexType>
+</xsd:schema>

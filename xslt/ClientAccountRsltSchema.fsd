@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"  xmlns:fxs="http://xmlns.heaerie.com/uss" xmlns:targetNamespace="http://xmlns.heaerie.com/CLIENTACCOUNTDTIL"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xdb="http://xmlns.oracle.com/xdb" xsi:schemaLocation="http://xmlns.oracle.com/xdb http://xmlns.oracle.com/xdb/ClientAccountRsltSchema.xsd">
+ <xsd:element name="CLIENTACCOUNTRSLT" type="CLIENTACCOUNTRSLTType" xdb:SQLType="CLIENTACCOUNTRSLT" xdb:SQLSchema="USSADMIN"/>
+ <xsd:complexType name="CLIENTACCOUNTRSLTType" xdb:SQLType="CLIENTACCOUNTRSLT" xdb:SQLSchema="USSADMIN" xdb:maintainDOM="false">
+  <xsd:sequence>
+   <xsd:element name="RSLT_CODE" xdb:SQLName="RSLT_CODE" xdb:SQLType="VARCHAR2" fxs:ussType="LABEL" fxs:ussDesc="Y" fxs:ussDataType="VARCHAR" fxs:ussClass="ctable" fxs:ussLabel="CES0000001" fxs:ussHelp="Y" fxs:ussXML="Y">
+    <xsd:simpleType>
+     <xsd:restriction base="xsd:string">
+      <xsd:maxLength value="10"/>
+     </xsd:restriction>
+    </xsd:simpleType>
+   </xsd:element>
+   <xsd:element name="RSLT_DESC" xdb:SQLName="RSLT_DESC" xdb:SQLType="VARCHAR2" fxs:ussType="LABEL" fxs:ussDesc="Y" fxs:ussDataType="VARCHAR" fxs:ussClass="ctable" fxs:ussLabel="CES0000001" fxs:ussHelp="Y" fxs:ussXML="Y">
+    <xsd:simpleType>
+     <xsd:restriction base="xsd:string">
+      <xsd:maxLength value="1000"/>
+     </xsd:restriction>
+    </xsd:simpleType>
+   </xsd:element>
+  </xsd:sequence>
+ </xsd:complexType>
+</xsd:schema>
+

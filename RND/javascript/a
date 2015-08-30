@@ -1,0 +1,206 @@
+270a271,384
+> function wrtMelthayiSwaraSpiral()
+> {
+>         var dynStr="<table border=2 class='ctable'>";	
+> 	var stg="A001";
+> 	 var tblValues= '~|||P|||||MELTHAYI||'; 
+>          tblValues+='~||||M2|||||'; 
+>          tblValues+='~||||M1|||||'; 
+>          tblValues+='~|||||G3||||'; 
+>          tblValues+='~|||||G2|R3|||'; 
+>          tblValues+='~|||||G1|R2|||'; 
+>          tblValues+='~||||||R1|||'; 
+>          tblValues+='~|||||||S|MADTHYATHAYI|'; 
+>          tblValues+='~||||||N3||'; 
+>          tblValues+='~|||||D3|N2||'; 
+>          tblValues+='~|||||D2|N1||'; 
+>          tblValues+='~|||||D1|||'; 
+>          tblValues+='~||||p||||KIZHTHAYI'; 
+>          tblValues+='~|||m2|||||'; 
+>          tblValues+='~|||m1|||||'; 
+>          tblValues+='~||g3||||||'; 
+>          tblValues+='~|r3|g2||||||'; 
+>          tblValues+='~|r2|g1||||||'; 
+>          tblValues+='~|r1|||||||'; 
+>          tblValues+='~s||||||||'; 
+> /*--
+>          tblValues+='~|n3||||||||'; 
+>          tblValues+='~|n2|d3|||||||'; 
+>          tblValues+='~|n1|d2|||||||'; 
+>          tblValues+='~||d1|||||||'; 
+>          tblValues+='~|||b||||||'; 
+> --*/
+> 	// alert("A:001");
+> 	stg="002";
+>        var swram= new swaras();
+>        var ss= new SwarasSpiral();
+> 	stg="003";
+> 
+> 	stg="004";
+> 	
+>  dynStr+='<tr class="ccaption"> <td colspan=13>'+ eval('ss.ssTitle' ) + '</td> </tr>';
+>  dynStr+='<tr> <td colspan=13> '+ eval('ss.ssTip')  +' </td> </tr>';
+> 	try
+> 	{
+> 		stg="005";
+> 		var tblRows=tblValues.split('~');
+> 		stg="006";
+> 		for (var row=0; row<tblRows.length; row ++ )
+> 		{
+> 			stg="007";
+> 			var tblCols=tblRows[row].split('|');
+> 			//dynStr+='<tr class="ccaption">';			
+> 			dynStr+='<tr>';			
+> 			for (var col=0; col< tblCols.length; col += 1)
+> 			{
+> 				stg="008";
+> 					
+> 				if( tblCols[col].length != 0 )
+> 				{
+> 					stg="009";
+> 				/*[	if (tblCols[col] == 'KIZHTHAYI' )	
+> 					{
+> 						alert( 'col<' +col+   '> row<'+row +'>'); 
+> 					}
+> 				]*/
+> 				// eval('swram.'+ tblCols[col] )
+> 					//alert( 'col<' +col+   '> row<'+row +'>'); 
+> 					if( col== 8   && row ==13 )
+> 					{
+> 					//	alert( 'col<' +col+   '> row<'+row +'>'); 
+> 						dynStr+='<td class="ctext"   rowspan=13>';			
+> 					}
+> 					else
+> 					if( col== 8   && row ==8 )
+> 					{
+> //						alert( 'col<' +col+   '> row<'+row +'>'); 
+> 						dynStr+='<td class="ctext" rowspan=13>';			
+> 					}
+> 					else
+> 					if( col== 8   && row ==1 )
+> 					{
+> //						alert( 'col<' +col+   '> row<'+row +'>'); 
+> 						dynStr+='<td class="ctext" rowspan=13>';			
+> 					}
+> 					else
+> 					{
+> 						 dynStr+='<td class="ctext" col='+col +' row='+row+' title="'+ eval('swram.'+ tblCols[col] )+'">';			
+> 					}
+> 				}
+> 				else
+> 				{
+> 												stg="010";
+> 			         dynStr+='<td>';			
+> 				}
+> 			stg="011";
+> 			dynStr+= tblCols[col];			
+> 			dynStr+='</td>';			
+> 			}
+> 			stg="012";
+> 			dynStr+='</tr>';			
+> 				
+> 		}
+> 			stg="013";
+> 			dynStr+='</table>';			
+> //alert('dynStr '+ dynStr);
+> 	return dynStr;
+> 			
+> 	}
+> 	catch(e)
+> 	{
+> 			alert("WSSExceprion:"+stg+":"+e);
+> 	}
+> 	return dynStr;
+> 		
+> }
+276,300c390,414
+< 	 var tblValues= '~|||P||||'; 
+<          tblValues+='~||||M2|||'; 
+<          tblValues+='~||||M1|||'; 
+<          tblValues+='~|||||G3||'; 
+<          tblValues+='~|||||G2|R3|'; 
+<          tblValues+='~|||||G1|R2|'; 
+<          tblValues+='~||||||R1|'; 
+<          tblValues+='~|||||||S'; 
+<          tblValues+='~||||||N3|'; 
+<          tblValues+='~|||||D3|N2|'; 
+<          tblValues+='~|||||D2|N1|'; 
+<          tblValues+='~|||||D1||'; 
+<          tblValues+='~||||p|||'; 
+<          tblValues+='~|||m2||||'; 
+<          tblValues+='~|||m1||||'; 
+<          tblValues+='~||g3|||||'; 
+<          tblValues+='~|r3|g2|||||'; 
+<          tblValues+='~|r2|g1|||||'; 
+<          tblValues+='~|r1||||||'; 
+<          tblValues+='~s|||||||'; 
+<          tblValues+='~|n3||||||'; 
+<          tblValues+='~|n2|d3|||||'; 
+<          tblValues+='~|n1|d2|||||'; 
+<          tblValues+='~||d1|||||'; 
+<          tblValues+='~|||b||||'; 
+---
+> 	 var tblValues= '~|||P|||||MELTHAYI||'; 
+>          tblValues+='~||||M2|||||'; 
+>          tblValues+='~||||M1|||||'; 
+>          tblValues+='~|||||G3||||'; 
+>          tblValues+='~|||||G2|R3|||'; 
+>          tblValues+='~|||||G1|R2|||'; 
+>          tblValues+='~||||||R1|||'; 
+>          tblValues+='~|||||||S|MADTHYATHAYI|'; 
+>          tblValues+='~||||||N3||'; 
+>          tblValues+='~|||||D3|N2||'; 
+>          tblValues+='~|||||D2|N1||'; 
+>          tblValues+='~|||||D1|||'; 
+>          tblValues+='~||||p||||KIZHTHAYI'; 
+>          tblValues+='~|||m2|||||'; 
+>          tblValues+='~|||m1|||||'; 
+>          tblValues+='~||g3||||||'; 
+>          tblValues+='~|r3|g2||||||'; 
+>          tblValues+='~|r2|g1||||||'; 
+>          tblValues+='~|r1|||||||'; 
+>          tblValues+='~s||||||||'; 
+>          tblValues+='~|n3||||||||'; 
+>          tblValues+='~|n2|d3|||||||'; 
+>          tblValues+='~|n1|d2|||||||'; 
+>          tblValues+='~||d1|||||||'; 
+>          tblValues+='~|||b||||||'; 
+309,310c423,424
+<  dynStr+='<tr class="ccaption"> <td colspan=10>'+ eval('ss.ssTitle' ) + '</td> </tr>';
+<  dynStr+='<tr> <td colspan=10> '+ eval('ss.ssTip')  +' </td> </tr>';
+---
+>  dynStr+='<tr class="ccaption"> <td colspan=13>'+ eval('ss.ssTitle' ) + '</td> </tr>';
+>  dynStr+='<tr> <td colspan=13> '+ eval('ss.ssTip')  +' </td> </tr>';
+324a439
+> 					
+327a443,447
+> 				/*[	if (tblCols[col] == 'KIZHTHAYI' )	
+> 					{
+> 						alert( 'col<' +col+   '> row<'+row +'>'); 
+> 					}
+> 				]*/
+329c449,470
+< 			         dynStr+='<td class="ctext" title="'+ eval('swram.'+ tblCols[col] )+'">';			
+---
+> 					//alert( 'col<' +col+   '> row<'+row +'>'); 
+> 					if( col== 8   && row ==13 )
+> 					{
+> 					//	alert( 'col<' +col+   '> row<'+row +'>'); 
+> 						dynStr+='<td class="ctext"   rowspan=13>';			
+> 					}
+> 					else
+> 					if( col== 8   && row ==8 )
+> 					{
+> //						alert( 'col<' +col+   '> row<'+row +'>'); 
+> 						dynStr+='<td class="ctext" rowspan=13>';			
+> 					}
+> 					else
+> 					if( col== 8   && row ==1 )
+> 					{
+> //						alert( 'col<' +col+   '> row<'+row +'>'); 
+> 						dynStr+='<td class="ctext" rowspan=13>';			
+> 					}
+> 					else
+> 					{
+> 						 dynStr+='<td class="ctext" col='+col +' row='+row+' title="'+ eval('swram.'+ tblCols[col] )+'">';			
+> 					}

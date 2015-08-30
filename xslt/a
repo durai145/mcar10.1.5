@@ -1,0 +1,51 @@
+1,24c1,6
+< <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
+< <xsl:template match="*">
+< <html>
+< <body>
+< <table border="1">
+< <tr>
+< <td>
+< <xsl:value-of select="name(.)" />
+< </td>
+< <td>
+< <xsl:for-each select="*">
+< 	<xsl:value-of select="name(.)" />
+< 	<table border="2">
+< 	<xsl:for-each select="@*">
+< 		<tr>
+< 		<td>
+<           <xsl:value-of select="name(.)"/>
+< 		</td>
+< 		<td>
+<           <xsl:value-of select="."/>
+< 		</td>
+< 		</tr>
+< </xsl:for-each>
+< 	</table>
+---
+> <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+>   <xsl:template match="INVENTORY">
+>     <INVENTORY>
+>       <xsl:apply-templates/>
+>     </INVENTORY>
+>   </xsl:template>
+26,32c8,17
+< </xsl:for-each>
+< </td>
+< </tr>
+< </table>
+< </body>
+< </html>
+< </xsl:template>
+---
+>   <xsl:template match="ITEM">
+>     <ITEM>
+>       <xsl:for-each select="*">
+>         <xsl:attribute name="{name()}">
+>           <xsl:value-of select="text()"/>
+>         </xsl:attribute>
+> 
+>       </xsl:for-each>
+>     </ITEM>
+>   </xsl:template>

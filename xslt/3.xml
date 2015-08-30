@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="test3.xsl"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"  xmlns:fxs="http://xmlns.heaerie.com/uss" xmlns:targetNamespace="http://xmlns.heaerie.com/COMMONERROR" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xdb="http://xmlns.oracle.com/xdb" xsi:schemaLocation="http://xmlns.oracle.com/xdb http://xmlns.oracle.com/xdb/CommonErrorSchema.xsd">
+ <xsd:element name="COMMONERROR" type="COMMONERRORType" xdb:SQLType="COMMONERROR" xdb:SQLSchema="USSADMIN"/>
+ <xsd:complexType name="COMMONERRORType" xdb:SQLType="COMMONERROR" xdb:SQLSchema="USSADMIN" xdb:maintainDOM="false">
+  <xsd:sequence>
+   <xsd:element name="ERRORCODE" xdb:SQLName="ERRORCODE" xdb:SQLType="VARCHAR2" fxs:ussType="LABEL" fxs:ussDesc="Y" fxs:ussDataType="VARCHAR" fxs:ussClass="ctable" fxs:ussLabel="CES0000001" fxs:ussHelp="Y" fxs:ussXML="Y">
+    <xsd:simpleType>
+     <xsd:restriction base="xsd:string">
+      <xsd:maxLength value="30"/>
+     </xsd:restriction>
+    </xsd:simpleType>
+   </xsd:element>
+   <xsd:element name="ERRORDESC" xdb:SQLName="ERRORDESC" xdb:SQLType="VARCHAR2" fxs:ussType="LABEL" fxs:ussDesc="Y" fxs:ussDataType="VARCHAR" fxs:ussClass="ctable" fxs:ussLabel="CES0000002" fxs:ussHelp="Y" fxs:ussXML="Y">
+    <xsd:simpleType>
+     <xsd:restriction base="xsd:string">
+      <xsd:maxLength value="4000"/>
+     </xsd:restriction>
+    </xsd:simpleType>
+   </xsd:element>
+  </xsd:sequence>
+ </xsd:complexType>
+</xsd:schema>

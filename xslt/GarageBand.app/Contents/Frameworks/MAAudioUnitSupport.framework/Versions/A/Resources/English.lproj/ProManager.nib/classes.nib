@@ -1,0 +1,19 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = NSProSearchField; LANGUAGE = ObjC; SUPERCLASS = NSSearchField; }, 
+        {
+            ACTIONS = {disableFailed = id; done = id; rescanSelected = id; }; 
+            CLASS = XAUManagerController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                "_arrayController" = NSArrayController; 
+                "_debugView" = NSTextView; 
+                "_resultsTextView" = NSTextView; 
+                "_tableView" = NSTableView; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }
+    ); 
+    IBVersion = 1; 
+}

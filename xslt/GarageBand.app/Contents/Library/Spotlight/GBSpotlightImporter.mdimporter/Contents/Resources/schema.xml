@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ 
+<schema version="1.0" xmlns="http://www.apple.com/metadata"
+                      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                      xsi:schemaLocation="http://www.apple.com/metadata file:///System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Resources/MetadataSchema.xsd">
+    <note>
+	Custom attributes that this metadata importer supports.  Below
+	is an example of a multivalued string attribute.  Other types
+	are CFNumber, CFDate, CFBoolean and CFData.		      
+    </note>
+    <attributes>
+        <attribute name="com_apple_garageband_metadata_projectType" multivalued="false" type="CFString"/>
+        <attribute name="com_apple_garageband_metadata_parentalAdvisory" multivalued="false" type="CFString"/>
+        <attribute name="com_apple_garageband_metadata_songVersionNumber" multivalued="false" type="CFNumber"/>
+        <attribute name="com_apple_garageband_metadata_numberOfSITracks" multivalued="false" type="CFNumber"/>
+        <attribute name="com_apple_garageband_metadata_numberOfRITracks" multivalued="false" type="CFNumber"/>
+    </attributes>
+
+  <types>
+		<type name="com.apple.garageband.project">
+			<note>
+				The keys that this metadata importer handles.
+			</note>
+			<allattrs>
+				com_apple_garageband_metadata_projectType
+				com_apple_garageband_metadata_parentalAdvisory
+				com_apple_garageband_metadata_songVersionNumber
+				com_apple_garageband_metadata_numberOfSITracks
+				com_apple_garageband_metadata_numberOfRITracks
+			</allattrs>
+			<displayattrs>
+				com_apple_garageband_metadata_projectType
+				com_apple_garageband_metadata_parentalAdvisory
+				kMDItemDurationSeconds		
+				kMDItemTempo
+				kMDItemKeySignature
+				kMDItemTimeSignature
+				com_apple_garageband_metadata_songVersionNumber
+			</displayattrs>
+    </type>
+		<type name="com.apple.garageband.template.magic">
+			<note>
+				The keys that this metadata importer handles.
+			</note>
+			<allattrs>
+				com_apple_garageband_metadata_projectType
+				com_apple_garageband_metadata_parentalAdvisory
+				com_apple_garageband_metadata_songVersionNumber				
+				com_apple_garageband_metadata_numberOfSITracks
+				com_apple_garageband_metadata_numberOfRITracks				
+			</allattrs>
+			<displayattrs>
+				com_apple_garageband_metadata_projectType
+				com_apple_garageband_metadata_parentalAdvisory
+				kMDItemDurationSeconds
+				kMDItemTempo
+				kMDItemKeySignature
+				kMDItemTimeSignature
+				com_apple_garageband_metadata_songVersionNumber
+			</displayattrs>
+		</type>
+		<type name="com.apple.garageband.template.magicmentor">
+			<note>
+				The keys that this metadata importer handles.
+			</note>
+			<allattrs>
+				com_apple_garageband_metadata_projectType
+				com_apple_garageband_metadata_parentalAdvisory
+				com_apple_garageband_metadata_songVersionNumber				
+				com_apple_garageband_metadata_numberOfSITracks
+				com_apple_garageband_metadata_numberOfRITracks				
+			</allattrs>
+			<displayattrs>
+				com_apple_garageband_metadata_projectType
+				com_apple_garageband_metadata_parentalAdvisory
+				kMDItemDurationSeconds
+				kMDItemTempo
+				kMDItemKeySignature
+				kMDItemTimeSignature
+				com_apple_garageband_metadata_songVersionNumber
+			</displayattrs>
+		</type>		
+	</types>
+</schema>
+

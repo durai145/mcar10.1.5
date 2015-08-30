@@ -1,0 +1,22 @@
+<?xml-stylesheet type="text/xsl" href="CommonErrorSchema.xsl"?>
+<schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"  xmlns:fxs="http://xmlns.heaerie.com/uss" xmlns:targetNamespace="http://xmlns.heaerie.com/COMMONERROR" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xdb="http://xmlns.oracle.com/xdb" xsi:schemaLocation="http://xmlns.oracle.com/xdb http://xmlns.oracle.com/xdb/CommonErrorSchema.xsd">
+ <element name="COMMONERROR" type="COMMONERRORType" xdb:SQLType="COMMONERROR" xdb:SQLSchema="USSADMIN"/>
+ <complexType name="COMMONERRORType" xdb:SQLType="COMMONERROR" xdb:SQLSchema="USSADMIN" xdb:maintainDOM="false">
+  <sequence>
+   <element name="ERRORCODE" xdb:SQLName="ERRORCODE" xdb:SQLType="VARCHAR2" fxs:ussType="LABEL" fxs:ussDesc="Y" fxs:ussDataType="VARCHAR" fxs:ussClass="ctable" fxs:ussLabel="CES0000001" fxs:ussHelp="Y" fxs:ussXML="Y">
+    <simpleType>
+     <restriction base="string">
+      <maxLength value="30"/>
+     </restriction>
+    </simpleType>
+   </element>
+   <element name="ERRORDESC" xdb:SQLName="ERRORDESC" xdb:SQLType="VARCHAR2" fxs:ussType="LABEL" fxs:ussDesc="Y" fxs:ussDataType="VARCHAR" fxs:ussClass="ctable" fxs:ussLabel="CES0000002" fxs:ussHelp="Y" fxs:ussXML="Y">
+    <simpleType>
+     <restriction base="string">
+      <maxLength value="4000"/>
+     </restriction>
+    </simpleType>
+   </element>
+  </sequence>
+ </complexType>
+</schema>

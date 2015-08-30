@@ -1,0 +1,9 @@
+folder:     Services
+
+contains:   adapters fo services that are implemented by the top level application but may 
+            be used from all components, e.g. progress indicators, file dialogs or message 
+            displays
+          
+motivation: provide application dependant implementations for common services, especially
+            but not resticted to UI elements for faceless frameworks
+            

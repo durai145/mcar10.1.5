@@ -1,0 +1,1 @@
+insert into trn003mb( GRP_ID      ,GBKT_TXN_ID ,TBKT_TXN_ID ,USR_ID      ,TRAN_AMT    ,DR_CR_FLG   ,VALUE_DT    ,CRETED_DT   ,MAKER_ID    ,MODIFIED_DT ,AUTH_ID     ,BUS_DT      )values(1,getNextSeq('TBKT_TXN_ID'),getNextSeq('TBKT_TXN_ID'),2,10,'C', STR_TO_DATE( '20-JAN-2013', '%d-%b-%Y' ) ,sysdate(),  ,sysdate(),  , STR_TO_DATE( '20-JAN-2013', '%d-%b-%Y' ));

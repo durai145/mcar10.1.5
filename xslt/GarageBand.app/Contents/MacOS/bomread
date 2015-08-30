@@ -1,0 +1,23 @@
+#!/bin/tcsh
+#########1#########2#########3#########4#########5#########6#########7#########8
+# File:             bomread
+# Copyright:				Copyright (C) 2004-2009 Apple Inc.
+# Author:						CS
+# History:          Aug-31-2004 - Created.
+#										Nov-21-2005 - Relocation changes.
+#										Aug-07-2007 - Leopard fixes
+#										Apr-16-2009 - Fix for <rdar://problem/5570498>
+#########1#########2#########3#########4#########5#########6#########7#########8
+
+if ( $1 == "-pst" ) then
+	/usr/bin/lsbom -p f "$2" | /usr/bin/perl -e 'while (<>){if ($_=~m/^\.{0,1}(.*\/Instrument Library\/Plug-In Settings\/.*\/.*\.pst).*/){print "$1:.:"}};'
+else if ( $1 == "-cst" ) then
+	/usr/bin/lsbom -p f "$2" | /usr/bin/perl -e 'while (<>){if ($_=~m/^\.{0,1}(.*\/Instrument Library\/Track Settings\/.*\/.*\.cst).*/){print "$1:.:"}};'
+else if ( $1 == "-any" ) then
+	/usr/bin/lsbom -p f "$2" | /usr/bin/perl -e 'while (<>){if ($_=~m/^\.{0,1}(.*\/Instrument Library\/.* Settings\/.*\.[cp]st).*/){print "$1:.:"}};'
+else
+	echo "Usage: bomread [-pst] [-cst] [-any] filename"
+endif
+
+#########1#########2#########3#########4#########5#########6#########7#########8
+# end of file

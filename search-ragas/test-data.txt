@@ -1,0 +1,4 @@
+Tamil Isai|Tamil Isai|Tamil Isai<span class='type'>Tamil Isai (Carnatic)</span> |../demo/index.php#tabs-2
+Classical |Classical|Classical <span class='type'>Tamil Isai (Carnatic)</span> |../demo/index.php#tabs-2
+Carnatic  |Carnatic|Carnatic<span class='type'>Tamil Isai (Carnatic)</span> |../demo/index.php#tabs-2
+Melakartha|Melakartha|Melakartha<span class='type'>heaerie</span> |../demo/index.php#tabs-2

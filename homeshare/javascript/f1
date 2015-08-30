@@ -1,0 +1,43 @@
+			else if(obj.id == 'CrbPer3Flg'  )
+			{
+//				alert('CrbPrt1Flg');
+					
+
+			 document.getElementById('ShrCnt').value =( (document.getElementById('CrbPer1Flg').value  == 'Y')?1 :0)  + ( (document.getElementById('CrbPer2Flg').value  == 'Y')?1 :0)  + ( (document.getElementById('CrbPer3Flg').value  == 'Y')?1 :0)  + ( (document.getElementById('CrbPer4Flg').value  == 'Y')?1 :0)  + ( (document.getElementById('CrbPer5Flg').value  == 'Y')?1 :0)  ;
+				
+//				alert('OG###:'+document.getElementById('CrbPer1Flg').value) 	;
+				if( document.getElementById('CrbPer3Flg').value  == 'Y')
+				{
+				 document.getElementById('CrbPer3').disabled=false; 
+				}
+				else
+				{
+				 document.getElementById('CrbPer3').disabled=true; 
+				 document.getElementById('CrbPer3').value=0; 
+				}
+
+
+
+					if (document.getElementById('SpndAmt').value.length!=0)	
+					{
+					 document.getElementById('ShrAmt').value= parseInt( document.getElementById('SpndAmt').value)/parseInt( document.getElementById('ShrCnt').value);
+					}
+					if ( document.getElementById('CrbPer3Flg').value == 'N')
+				{
+					document.getElementById('CrbPer3').value=0;//return false;	
+					;//return false;	
+					 document.getElementById('BalPer3').value= parseInt( document.getElementById('CrbPer3').value) -parseInt( document.getElementById('ShrAmt').value);
+					 document.getElementById('BalTtl').value= parseInt( document.getElementById('BalPer1').value) +parseInt( document.getElementById('BalPer2').value) +parseInt( document.getElementById('BalPer3').value) +parseInt( document.getElementById('BalPer4').value) +parseInt( document.getElementById('BalPer5').value);
+					 document.getElementById('CrbTtl').value= parseInt( document.getElementById('CrbPer1').value) +parseInt( document.getElementById('CrbPer2').value) +parseInt( document.getElementById('CrbPer3').value) +parseInt( document.getElementById('CrbPer4').value) +parseInt( document.getElementById('CrbPer5').value);
+					 document.getElementById('BalDiff').value= parseInt( document.getElementById('CrbTtl').value) - parseInt( document.getElementById('SpndAmt').value);
+				}
+				else
+				{
+					 document.getElementById('BalPer3').value= parseInt( document.getElementById('CrbPer3').value) -parseInt( document.getElementById('ShrAmt').value);
+				}
+					 document.getElementById('BalTtl').value= parseInt( document.getElementById('BalPer1').value) +parseInt( document.getElementById('BalPer2').value) +parseInt( document.getElementById('BalPer3').value) +parseInt( document.getElementById('BalPer4').value) +parseInt( document.getElementById('BalPer5').value);
+					 document.getElementById('CrbTtl').value= parseInt( document.getElementById('CrbPer1').value) +parseInt( document.getElementById('CrbPer2').value) +parseInt( document.getElementById('CrbPer3').value) +parseInt( document.getElementById('CrbPer4').value) +parseInt( document.getElementById('CrbPer5').value);
+					 document.getElementById('BalDiff').value= parseInt( document.getElementById('CrbTtl').value) - parseInt( document.getElementById('SpndAmt').value);
+					
+
+			}
